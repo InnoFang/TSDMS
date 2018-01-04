@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0"
+            prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.LoginController">
+    <children>
+        <ImageView fitHeight="209.0" fitWidth="540.0" pickOnBounds="true" preserveRatio="false">
+            <image>
+                <Image preserveRatio="false" requestedHeight="209.0" requestedWidth="540.0" smooth="true"
+                       url="@/image/tsdms.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="43.0" layoutY="246.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image preserveRatio="true" smooth="true" url="@/image/admin.png"/>
+            </image>
+        </ImageView>
+        <TextField fx:id="userId" layoutX="169.0" layoutY="246.0" prefHeight="30.0" prefWidth="243.0" promptText="用户名"/>
+        <PasswordField fx:id="password" layoutX="169.0" layoutY="276.0" prefHeight="30.0" prefWidth="243.0"
+                       promptText="密   码"/>
+        <RadioButton fx:id="admin" layoutX="169.0" layoutY="316.0" mnemonicParsing="false" text="管理员"/>
+        <RadioButton fx:id="teacher" layoutX="346.0" layoutY="316.0" mnemonicParsing="false" text="教  师"/>
+        <Button fx:id="login" layoutX="169.0" layoutY="349.0" mnemonicParsing="false" onAction="#onHandleLogin"
+                prefHeight="37.0" prefWidth="243.0" text="登   录"/>
+        <Hyperlink fx:id="register" layoutX="428.0" layoutY="247.0" onAction="#onGoToRegister" text="注册账号"/>
+        <Label fx:id="errorMessage" layoutX="7.0" layoutY="390.0" prefHeight="20.0" prefWidth="540.0" text="Label"
+               AnchorPane.leftAnchor="7.0"/>
+    </children>
+</AnchorPane>
