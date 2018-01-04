@@ -1,8 +1,11 @@
 package app;
 
+import com.sun.javafx.robot.impl.FXRobotHelper;
 import controller.LoginController;
 import controller.RegisterController;
+import db.UserManager;
 import javafx.application.Application;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.fxml.JavaFXBuilderFactory;
@@ -12,6 +15,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.io.InputStream;
 
 /**
@@ -38,7 +42,7 @@ public class MainApp extends Application {
     public void goToLogin() {
         try {
             LoginController login = (LoginController) replaceSceneContent("../../resources/Login.fxml");
-            this.primaryStage.setHeight(460);
+            this.primaryStage.setHeight(450);
             this.primaryStage.setWidth(540);
             login.setApp(this);
         } catch (Exception e) {
@@ -49,11 +53,29 @@ public class MainApp extends Application {
     public void goToRegister() {
         try {
             RegisterController register = (RegisterController) replaceSceneContent("../../resources/Register.fxml");
-            this.primaryStage.setHeight(545);
+            this.primaryStage.setHeight(530);
             this.primaryStage.setWidth(540);
             register.setApp(this);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    public boolean userLogging(String userId, String password) {
+        if (UserManager.validate(userId, password)) {
+            // 页面跳转
+            ObservableList<Stage> stages = FXRobotHelper.getStages();
+            try {
+                Scene scene = new Scene(FXMLLoader.load(getClass().getResource("../../resources/Operation.fxml")));
+                this.primaryStage.setHeight(600);
+                this.primaryStage.setWidth(1000);
+                stages.get(0).setScene(scene);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return true;
+        } else {
+            return false;
         }
     }
 
@@ -74,7 +96,7 @@ public class MainApp extends Application {
         root.getChildren().clear();
         root.getChildren().addAll(page);
 
-        return (Initializable)loader.getController();
+        return (Initializable) loader.getController();
     }
 
     public static void main(String[] args) {

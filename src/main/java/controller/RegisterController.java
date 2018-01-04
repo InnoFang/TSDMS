@@ -1,10 +1,12 @@
 package controller;
 
 import app.MainApp;
+import dao.User;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyEvent;
+import utils.TextUtils;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -48,8 +50,24 @@ public class RegisterController implements Initializable {
     }
 
     public void onHandleRegister(javafx.event.ActionEvent event) {
+        if (TextUtils.isEmpty(userId.getText())) { errorMessage.setText("用户名不能为空"); return; }
+        if (TextUtils.isEmpty(password.getText())) { errorMessage.setText("密码不能为空"); return; }
+        if (TextUtils.isEmpty(repeatPassword.getText())) { errorMessage.setText("重复密码不能为空"); return; }
+        if (TextUtils.isEmpty(contactInfo.getText())) { errorMessage.setText("联系方式不能为空"); return; }
+        if (!TextUtils.equals(password.getText(), repeatPassword.getText())) { errorMessage.setText("两次密码不相等"); return; }
+
+        String type = admin.isSelected() ? User.ADMIN : teacher.isSelected() ? User.TEACHER : "";
+        if (type.equals("")) { errorMessage.setText("用户类型不能为空"); return; }
+
+        User user = new User(userId.getText(), password.getText(), contactInfo.getText(), type);
+
+        newUserRegister(user);
 
         app.goToLogin();
+    }
+
+    private void newUserRegister(User user) {
+        System.out.println(user.toString());
     }
 
     public void onHandleGoBackLogin(){

@@ -46,7 +46,9 @@ public class LoginController implements Initializable {
     }
 
     public void onHandleLogin(ActionEvent event) {
-
+        if(!app.userLogging(userId.getText(), password.getText())) {
+            errorMessage.setText("用户名或密码错误");
+        }
     }
 
     public void onGoToRegister(ActionEvent event) {
