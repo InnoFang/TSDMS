@@ -32,6 +32,7 @@ public class MainApp extends Application {
         this.primaryStage.setResizable(false);
         this.primaryStage.setScene(new Scene(createContent()));
         this.primaryStage.show();
+
     }
 
     private Parent createContent() {
@@ -42,8 +43,7 @@ public class MainApp extends Application {
     public void goToLogin() {
         try {
             LoginController login = (LoginController) replaceSceneContent("../../resources/Login.fxml");
-            this.primaryStage.setHeight(450);
-            this.primaryStage.setWidth(540);
+            resize(540, 450);
             login.setApp(this);
         } catch (Exception e) {
             e.printStackTrace();
@@ -53,8 +53,7 @@ public class MainApp extends Application {
     public void goToRegister() {
         try {
             RegisterController register = (RegisterController) replaceSceneContent("../../resources/Register.fxml");
-            this.primaryStage.setHeight(530);
-            this.primaryStage.setWidth(540);
+            resize(540, 530);
             register.setApp(this);
         } catch (Exception e) {
             e.printStackTrace();
@@ -67,8 +66,7 @@ public class MainApp extends Application {
             ObservableList<Stage> stages = FXRobotHelper.getStages();
             try {
                 Scene scene = new Scene(FXMLLoader.load(getClass().getResource("../../resources/Operation.fxml")));
-                this.primaryStage.setHeight(600);
-                this.primaryStage.setWidth(1000);
+                resize(1000, 600);
                 stages.get(0).setScene(scene);
             } catch (IOException e) {
                 e.printStackTrace();
@@ -77,6 +75,11 @@ public class MainApp extends Application {
         } else {
             return false;
         }
+    }
+
+    private void resize(int width, int height) {
+        this.primaryStage.setWidth(width);
+        this.primaryStage.setHeight(height);
     }
 
     private Initializable replaceSceneContent(String fxml) throws Exception {
