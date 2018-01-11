@@ -3,6 +3,7 @@ package app;
 import com.sun.javafx.robot.impl.FXRobotHelper;
 import controller.LoginController;
 import controller.RegisterController;
+import dao.User;
 import db.UserManager;
 import javafx.application.Application;
 import javafx.collections.ObservableList;
@@ -60,12 +61,16 @@ public class MainApp extends Application {
         }
     }
 
-    public boolean userLogging(String userId, String password) {
+    public boolean userLogging(String userId, String password, String type) {
         if (UserManager.validate(userId, password)) {
             // 页面跳转
             ObservableList<Stage> stages = FXRobotHelper.getStages();
             try {
-                Scene scene = new Scene(FXMLLoader.load(getClass().getResource("../../resources/Operation.fxml")));
+                String src;
+                if (type.equals(User.ADMIN)) src = "../../resources/Admin.fxml";
+                else src = "../../resources/Teacher.fxml";
+
+                Scene scene = new Scene(FXMLLoader.load(getClass().getResource(src)));
                 resize(1000, 600);
                 stages.get(0).setScene(scene);
             } catch (IOException e) {

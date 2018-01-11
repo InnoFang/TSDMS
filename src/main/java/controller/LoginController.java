@@ -1,6 +1,7 @@
 package controller;
 
 import app.MainApp;
+import dao.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -46,7 +47,13 @@ public class LoginController implements Initializable {
     }
 
     public void onHandleLogin(ActionEvent event) {
-        if(!app.userLogging(userId.getText(), password.getText())) {
+        String type = admin.isSelected() ? User.ADMIN : teacher.isSelected() ? User.TEACHER : "";
+        if (type.equals("")) {
+            errorMessage.setText("用户类型不能为空");
+            return;
+        }
+
+        if (!app.userLogging(userId.getText(), password.getText(), type)) {
             errorMessage.setText("用户名或密码错误");
         }
     }
