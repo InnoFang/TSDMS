@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tsdms@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tsdms">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="jdbctest"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="sakila"/>
+    <schema id="8" parent="1" name="school"/>
+    <schema id="9" parent="1" name="student"/>
+    <schema id="10" parent="1" name="sys"/>
+    <schema id="11" parent="1" name="world"/>
+    <table id="12" parent="2" name="admin"/>
+    <table id="13" parent="2" name="class"/>
+    <table id="14" parent="2" name="press"/>
+    <table id="15" parent="2" name="teacher"/>
+    <table id="16" parent="2" name="textbook"/>
+    <column id="17" parent="12" name="Ano">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="12" name="Apassword">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="12" name="Atel">
+      <Position>3</Position>
+      <DataType>char(15)|0</DataType>
+    </column>
+    <column id="20" parent="12" name="Aname">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+    </column>
+    <key id="21" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ano</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="22" parent="13" name="Cno">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="13" name="Cnumber">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="13" name="Cmonitor">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="25" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Cno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="26" parent="14" name="Pno">
+      <Position>1</Position>
+      <DataType>char(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="14" name="Pname">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+    </column>
+    <column id="28" parent="14" name="Ptel">
+      <Position>3</Position>
+      <DataType>char(15)|0</DataType>
+    </column>
+    <key id="29" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Pno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="15" name="Tno">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="15" name="Tpassword">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="15" name="Ttel">
+      <Position>3</Position>
+      <DataType>char(15)|0</DataType>
+    </column>
+    <column id="33" parent="15" name="Tname">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+    </column>
+    <column id="34" parent="15" name="Tsex">
+      <Position>5</Position>
+      <DataType>enum(&apos;男&apos;, &apos;女&apos;)|0</DataType>
+      <DefaultExpression>&apos;男&apos;</DefaultExpression>
+    </column>
+    <column id="35" parent="15" name="Cno">
+      <Position>6</Position>
+      <DataType>char(20)|0</DataType>
+    </column>
+    <key id="36" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Tno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="16" name="Bno">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="16" name="Bname">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="16" name="Bversion">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+    </column>
+    <column id="40" parent="16" name="Bprice">
+      <Position>4</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="41" parent="16" name="Bnum">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="16" name="Pno">
+      <Position>6</Position>
+      <DataType>char(15)|0</DataType>
+    </column>
+    <key id="43" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Bno</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

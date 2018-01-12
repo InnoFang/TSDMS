@@ -30,7 +30,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;
-        this.primaryStage.setResizable(false);
+        this.primaryStage.setResizable(true);
         this.primaryStage.setScene(new Scene(createContent()));
         this.primaryStage.show();
 
@@ -62,7 +62,7 @@ public class MainApp extends Application {
     }
 
     public boolean userLogging(String userId, String password, String type) {
-        if (UserManager.validate(userId, password)) {
+        if (UserManager.validate(userId, password, type)) {
             // 页面跳转
             ObservableList<Stage> stages = FXRobotHelper.getStages();
             try {

@@ -45,9 +45,7 @@
             <DropShadow />
          </effect>
         </AnchorPane>
-        <AnchorPane fx:id="pane" layoutX="256.0" prefHeight="600.0" prefWidth="829.0">
-         <effect>
-            <InnerShadow />
-         </effect></AnchorPane>
+        <AnchorPane fx:id="pane" layoutX="256.0" prefHeight="650.0" prefWidth="850.0">
+        </AnchorPane>
     </children>
 </AnchorPane>

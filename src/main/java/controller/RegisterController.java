@@ -2,6 +2,7 @@ package controller;
 
 import app.MainApp;
 import dao.User;
+import db.UserManager;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -61,14 +62,11 @@ public class RegisterController implements Initializable {
 
         User user = new User(userId.getText(), password.getText(), contactInfo.getText(), type);
 
-        newUserRegister(user);
+        if (!UserManager.register(user)) { errorMessage.setText("注册失败，请更换用户名试一试"); return; }
 
         app.goToLogin();
     }
 
-    private void newUserRegister(User user) {
-        System.out.println(user.toString());
-    }
 
     public void onHandleGoBackLogin(){
         app.goToLogin();
