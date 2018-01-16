@@ -44,7 +44,7 @@ public class MainApp extends Application {
     public void goToLogin() {
         try {
             LoginController login = (LoginController) replaceSceneContent("../../resources/Login.fxml");
-            resize(540, 450);
+            resize(540, 460);
             login.setApp(this);
         } catch (Exception e) {
             e.printStackTrace();
@@ -54,7 +54,7 @@ public class MainApp extends Application {
     public void goToRegister() {
         try {
             RegisterController register = (RegisterController) replaceSceneContent("../../resources/Register.fxml");
-            resize(540, 530);
+            resize(540, 540);
             register.setApp(this);
         } catch (Exception e) {
             e.printStackTrace();
@@ -71,7 +71,7 @@ public class MainApp extends Application {
                 else src = "../../resources/Teacher.fxml";
 
                 Scene scene = new Scene(FXMLLoader.load(getClass().getResource(src)));
-                resize(1000, 600);
+                resize(1100, 650);
                 stages.get(0).setScene(scene);
             } catch (IOException e) {
                 e.printStackTrace();

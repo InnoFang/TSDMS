@@ -1,9 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-
-<AnchorPane prefHeight="600.0" prefWidth="814.0"  style="-fx-background-color: #ee3366;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
-
+<AnchorPane prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="10.0" layoutY="256.0" prefHeight="319.0" prefWidth="794.0" style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;" AnchorPane.bottomAnchor="25.0">
+        <columns>
+          <TableColumn prefWidth="104.0" styleClass=".table-view" text="教师编号" />
+          <TableColumn prefWidth="99.0" text="教材编号" />
+            <TableColumn prefWidth="151.0" text="教材名称" />
+            <TableColumn prefWidth="81.0" text="版本" />
+            <TableColumn prefWidth="166.0" text="出版社" />
+            <TableColumn prefWidth="86.0" text="数量" />
+            <TableColumn prefWidth="97.0" text="征订日期" />
+        </columns>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </TableView>
+      <AnchorPane layoutX="277.0" layoutY="14.0" prefHeight="200.0" prefWidth="523.0">
+         <children>
+            <AnchorPane layoutX="-186.0" layoutY="35.0" prefHeight="151.0" prefWidth="657.0" style="-fx-background-color: #A9CCE3;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="59.0" layoutY="25.0" text="教师编号">
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="18.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label layoutX="59.0" layoutY="62.0" text="教材编号">
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="18.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label layoutX="59.0" layoutY="97.0" text="管理员编号">
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="18.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label layoutX="371.0" layoutY="97.0" text="领书人">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="371.0" layoutY="62.0" text="领取数量">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="371.0" layoutY="25.0" text="教材名称">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="182.0" layoutY="29.0" text="Label" />
+                  <Label layoutX="182.0" layoutY="66.0" text="Label" />
+                  <Label layoutX="182.0" layoutY="100.0" text="Label" />
+                  <Label layoutX="497.0" layoutY="28.0" text="Label" />
+                  <JFXTextField disable="true" layoutX="497.0" layoutY="59.0" prefHeight="30.0" prefWidth="103.0" />
+                  <JFXTextField disable="true" layoutX="497.0" layoutY="95.0" prefHeight="30.0" prefWidth="103.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <JFXTextField layoutX="49.0" layoutY="-68.0" promptText="教师编号" />
+      <JFXButton buttonType="RAISED" layoutX="244.0" layoutY="214.0" prefHeight="36.0" prefWidth="150.0" style="-fx-background-color: #27AE60;" text="同意" textAlignment="CENTER">
+         <font>
+            <Font name="YouYuan" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="14.78" offsetX="1.0" offsetY="1.0" radius="8.445" spread="1.0" />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="420.0" layoutY="214.0" prefHeight="36.0" prefWidth="150.0" style="-fx-background-color: #EB984E;" text="拒绝">
+         <font>
+            <Font name="YouYuan" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
 </AnchorPane>

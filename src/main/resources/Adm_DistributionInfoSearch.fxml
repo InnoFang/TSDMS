@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="600.0" prefWidth="814.0"  style="-fx-background-color: #6699ee;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
-
+<AnchorPane prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="10.0" layoutY="256.0" prefHeight="319.0" prefWidth="794.0" style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;" AnchorPane.bottomAnchor="25.0">
+        <columns>
+          <TableColumn prefWidth="104.0" styleClass=".table-view" text="管理员编号" />
+          <TableColumn prefWidth="115.0" text="教材编号" />
+            <TableColumn prefWidth="101.0" text="教材名称" />
+            <TableColumn prefWidth="127.0" text="出版社" />
+            <TableColumn prefWidth="105.0" text="数量" />
+            <TableColumn prefWidth="129.0" text="发放日期" />
+            <TableColumn prefWidth="104.0" text="领书人" />
+        </columns>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </TableView>
+      <AnchorPane layoutX="266.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="-146.0" layoutY="32.0" prefHeight="174.0" prefWidth="617.0" style="-fx-background-color: #AED6F1;">
+               <children>
+                  <JFXTextField alignment="CENTER" layoutX="56.0" layoutY="102.0" promptText="教师编号" text="教材名称">
+                     <effect>
+                        <Blend />
+                     </effect></JFXTextField>
+                  <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="102.0" promptText="发放日期">
+                     <effect>
+                        <Blend />
+                     </effect></JFXTextField>
+                  <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="22.0" promptText="教师编号" text="教材编号">
+                     <effect>
+                        <Blend />
+                     </effect></JFXTextField>
+                  <JFXTextField alignment="CENTER" layoutX="47.0" layoutY="22.0" promptText="管理员编号">
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </JFXTextField>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>

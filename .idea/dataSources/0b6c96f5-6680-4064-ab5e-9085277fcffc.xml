@@ -38,108 +38,114 @@
       <Position>4</Position>
       <DataType>char(20)|0</DataType>
     </column>
-    <key id="21" parent="12" name="PRIMARY">
+    <column id="21" parent="12" name="Asex">
+      <Position>5</Position>
+      <DataType>enum(&apos;男&apos;, &apos;女&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;男&apos;</DefaultExpression>
+    </column>
+    <key id="22" parent="12" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Ano</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="22" parent="13" name="Cno">
+    <column id="23" parent="13" name="Cno">
       <Position>1</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="23" parent="13" name="Cnumber">
+    <column id="24" parent="13" name="Cnumber">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="24" parent="13" name="Cmonitor">
+    <column id="25" parent="13" name="Cmonitor">
       <Position>3</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="25" parent="13" name="PRIMARY">
+    <key id="26" parent="13" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Cno</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="26" parent="14" name="Pno">
+    <column id="27" parent="14" name="Pno">
       <Position>1</Position>
       <DataType>char(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="27" parent="14" name="Pname">
+    <column id="28" parent="14" name="Pname">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
     </column>
-    <column id="28" parent="14" name="Ptel">
+    <column id="29" parent="14" name="Ptel">
       <Position>3</Position>
       <DataType>char(15)|0</DataType>
     </column>
-    <key id="29" parent="14" name="PRIMARY">
+    <key id="30" parent="14" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Pno</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="30" parent="15" name="Tno">
+    <column id="31" parent="15" name="Tno">
       <Position>1</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="31" parent="15" name="Tpassword">
+    <column id="32" parent="15" name="Tpassword">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="32" parent="15" name="Ttel">
+    <column id="33" parent="15" name="Ttel">
       <Position>3</Position>
       <DataType>char(15)|0</DataType>
     </column>
-    <column id="33" parent="15" name="Tname">
+    <column id="34" parent="15" name="Tname">
       <Position>4</Position>
       <DataType>char(20)|0</DataType>
     </column>
-    <column id="34" parent="15" name="Tsex">
+    <column id="35" parent="15" name="Tsex">
       <Position>5</Position>
       <DataType>enum(&apos;男&apos;, &apos;女&apos;)|0</DataType>
       <DefaultExpression>&apos;男&apos;</DefaultExpression>
     </column>
-    <column id="35" parent="15" name="Cno">
+    <column id="36" parent="15" name="Cno">
       <Position>6</Position>
       <DataType>char(20)|0</DataType>
     </column>
-    <key id="36" parent="15" name="PRIMARY">
+    <key id="37" parent="15" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Tno</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="37" parent="16" name="Bno">
+    <column id="38" parent="16" name="Bno">
       <Position>1</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="38" parent="16" name="Bname">
+    <column id="39" parent="16" name="Bname">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="39" parent="16" name="Bversion">
+    <column id="40" parent="16" name="Bversion">
       <Position>3</Position>
       <DataType>char(20)|0</DataType>
     </column>
-    <column id="40" parent="16" name="Bprice">
+    <column id="41" parent="16" name="Bprice">
       <Position>4</Position>
       <DataType>float|0</DataType>
     </column>
-    <column id="41" parent="16" name="Bnum">
+    <column id="42" parent="16" name="Bnum">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="42" parent="16" name="Pno">
+    <column id="43" parent="16" name="Pno">
       <Position>6</Position>
       <DataType>char(15)|0</DataType>
     </column>
-    <key id="43" parent="16" name="PRIMARY">
+    <key id="44" parent="16" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Bno</ColNames>
       <Primary>1</Primary>

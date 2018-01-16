@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.*?>
-<?import java.lang.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Bloom?>
 <?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
+<?import java.net.URL?>
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
     <children>
-        <AnchorPane prefHeight="600.0" prefWidth="252.0" style="-fx-background-color: #B0BEC5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <AnchorPane prefHeight="600.0" prefWidth="252.0" style="-fx-background-color: linear-gradient(to bottom,#7FB3D5,#AED6F1);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
-                <Pane layoutX="-72.0" prefHeight="72.0" prefWidth="268.0" style="-fx-background-color: #CFD8DC;" AnchorPane.leftAnchor="-72.0" AnchorPane.topAnchor="0.0">
-                    <children>
-                        <Label layoutX="89.0" layoutY="14.0" prefHeight="24.0" prefWidth="165.0" text="教材征订与管理系统" textFill="WHITE">
-                            <font>
-                                <Font name="Microsoft YaHei UI Light" size="18.0" />
-                            </font>
-                        </Label>
-                        <Label layoutX="131.0" layoutY="38.0" prefHeight="24.0" prefWidth="81.0" text="T S D M S" textFill="WHITE">
-                            <font>
-                                <Font name="Comic Sans MS Italic" size="15.0" />
-                            </font>
-                        </Label>
-                    </children>
+                <JFXButton id="menuButton" fx:id="btnOverview" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="150.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    主界面" textFill="WHITE" />
+                <JFXButton id="menuButton" fx:id="btnSubscriptionInfoSearch" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="195.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    征订信息查询" textFill="WHITE" />
+                <JFXButton id="menuButton" fx:id="btnDistributionInfoSearch" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="240.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    发放信息查询" textFill="WHITE" />
+                <JFXButton id="menuButton" fx:id="btnTextbookDistribute" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="285.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    教材发放" textFill="WHITE" />
+                <JFXButton id="menuButton" fx:id="btnAdminInfo" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="330.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    个人信息管理" textFill="WHITE" />
+            <Label layoutX="17.0" layoutY="28.0" prefHeight="29.0" prefWidth="222.0" text="教材征订与发放管理系统" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
                <effect>
-                  <DropShadow />
+                  <Bloom threshold="0.73" />
                </effect>
-                </Pane>
-                <JFXButton fx:id="btnOverview" alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="15.0" layoutX="23.0" layoutY="116.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="233.0" style="-fx-background-color: #BDBDBD;" text="  主界面" textFill="WHITE" />
-                <JFXButton fx:id="btnSubscriptionInfoSearch" alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="15.0" layoutX="23.0" layoutY="161.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="233.0" style="-fx-background-color: #BDBDBD;" text="  征订信息查询" textFill="WHITE" />
-                <JFXButton fx:id="btnDistributionInfoSearch" alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="15.0" layoutX="23.0" layoutY="206.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="233.0" style="-fx-background-color: #BDBDBD;" text="  发放信息查询" textFill="WHITE" />
-                <JFXButton fx:id="btnTextbookDistribute" alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="15.0" layoutX="23.0" layoutY="251.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="233.0" style="-fx-background-color: #BDBDBD;" text="  教材发放" textFill="WHITE" />
-                <JFXButton fx:id="btnAdminInfo" alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="15.0" layoutX="23.0" layoutY="296.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="233.0" style="-fx-background-color: #BDBDBD;" text="  个人信息管理" textFill="WHITE" />
+               <font>
+                  <Font name="Microsoft YaHei UI Light" size="20.0" />
+               </font>
+            </Label>
+            <Separator layoutX="28.0" layoutY="73.0" prefWidth="200.0" />
             </children>
          <effect>
             <DropShadow />
@@ -48,4 +35,7 @@
         <AnchorPane fx:id="pane" layoutX="256.0" prefHeight="650.0" prefWidth="850.0">
         </AnchorPane>
     </children>
+    <stylesheets>
+        <URL value="@css/main.css" />
+    </stylesheets>
 </AnchorPane>

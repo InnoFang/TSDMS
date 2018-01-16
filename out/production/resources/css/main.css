@@ -1,0 +1,10 @@
+/*#menuButton{*/
+    /*-fx-background-color: green;*/
+/*}*/
+
+#menuButton:hover{
+    -fx-background-color: #AF7AC5;
+}
+#menuButton:selected{
+    -fx-background-color: red;
+}
