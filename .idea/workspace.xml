@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b072e22d-6ff2-4c60-aa0f-79204ec39d00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/Adm_TextbookInfoSearch.fxml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/Adm_DistributionInfoSearch.fxml" afterPath="$PROJECT_DIR$/out/production/resources/Adm_DistributionInfoSearch.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/Adm_SubscriptionInfoSearch.fxml" afterPath="$PROJECT_DIR$/out/production/resources/Adm_SubscriptionInfoSearch.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/Adm_TextbookInfoSearch.fxml" afterPath="$PROJECT_DIR$/out/production/resources/Adm_TextbookInfoSearch.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/Admin.fxml" afterPath="$PROJECT_DIR$/out/production/resources/Admin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/Tea_TextbookInfoSearch.fxml" afterPath="$PROJECT_DIR$/out/production/resources/Tea_TextbookInfoSearch.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Admin.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Admin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -105,131 +101,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Admin.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Admin.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="204" lean-forward="false" selection-start-line="15" selection-start-column="204" selection-end-line="15" selection-end-column="204" />
-              <folding>
-                <marker date="1516153479070" expanded="true" signature="2676:2733" ph="..." />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tea_ClassInfoManager.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adm_DistributionInfoSearch.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="54" column="21" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="54" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tea_TeacherInfoManager.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adm_SubscriptionInfoSearch.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adm_AdminInfoManager.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-              <folding>
-                <marker date="1516086650011" expanded="true" signature="2810:3185" ph="..." />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adm_TextbookDistribute.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-              <folding>
-                <marker date="1516084706492" expanded="true" signature="4497:5056" ph="..." />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tea_TextbookInfoSearch.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adm_TextbookInfoManager.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -630,7 +502,6 @@
         <option value="$PROJECT_DIR$/src/main/java/db/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Register.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/css/main.css" />
@@ -639,9 +510,11 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Admin.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
       </list>
     </option>
   </component>
@@ -986,12 +859,12 @@
       <workItem from="1516063195745" duration="6869000" />
       <workItem from="1516084300863" duration="9318000" />
       <workItem from="1516103242998" duration="676000" />
-      <workItem from="1516149438994" duration="4737000" />
+      <workItem from="1516149438994" duration="5114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75172000" />
+    <option name="totallyTimeSpent" value="75549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -1302,14 +1175,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
+    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.press">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.textbook">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="29" column="209" lean-forward="false" selection-start-line="29" selection-start-column="171" selection-end-line="29" selection-end-column="209" />
+        <state relative-caret-position="234">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
-            <marker date="1516084706456" expanded="true" signature="2319:2320" ph="..." />
-            <marker date="1516084706456" expanded="true" signature="2319:2336" ph="..." />
+            <marker date="1516150442293" expanded="true" signature="2733:2753" ph="..." />
           </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <marker date="1516154492338" expanded="true" signature="1435:1552" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="1435:3489" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="1435:3503" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="1451:1530" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="1808:1977" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="1824:1903" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="1921:1962" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2036:2205" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2054:2095" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2111:2190" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2262:2431" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2280:2321" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2337:2416" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2487:2656" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2505:2546" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2562:2641" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2713:2882" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2731:2772" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2788:2867" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2940:3109" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="2958:2999" ph="..." />
+            <marker date="1516154492338" expanded="true" signature="3015:3094" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_Overview.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -1329,83 +1293,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_Overview.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <marker date="1516150442293" expanded="true" signature="2733:2753" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.press">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.textbook">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Admin.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="15" column="204" lean-forward="false" selection-start-line="15" selection-start-column="204" selection-end-line="15" selection-end-column="204" />
-          <folding>
-            <marker date="1516153479070" expanded="true" signature="2676:2733" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1413,34 +1304,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="54" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516086650011" expanded="true" signature="2810:3185" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="1399:1516" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="1399:3789" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="1399:3803" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="1415:1494" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2110:2279" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2126:2205" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2223:2264" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2337:2506" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2355:2396" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2412:2491" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2562:2731" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2580:2621" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2637:2716" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2787:2956" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2805:2846" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="2862:2941" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="3013:3182" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="3031:3072" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="3088:3167" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="3240:3409" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="3258:3299" ph="..." />
+            <marker date="1516154410725" expanded="true" signature="3315:3394" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1461,22 +1351,49 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="489">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="54" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding>
+            <marker date="1516086650011" expanded="true" signature="2810:3185" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <marker date="1516154527069" expanded="true" signature="2319:2320" ph="..." />
+            <marker date="1516154527069" expanded="true" signature="2319:2336" ph="..." />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
