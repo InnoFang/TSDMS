@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 public class BaseDialogController {
 
     protected Stage dialogStage;
+    protected boolean okClicked = false;
 
     public Stage getDialogStage() {
         return dialogStage;
@@ -15,5 +16,9 @@ public class BaseDialogController {
 
     public void setDialogStage(Stage dialogStage) {
         this.dialogStage = dialogStage;
+    }
+
+    public boolean isOkClicked() {
+        return okClicked;
     }
 }

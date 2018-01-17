@@ -14,12 +14,12 @@
     <children>
         <TableView fx:id="textbookTable" layoutX="10.0" layoutY="255.0" prefHeight="336.0" prefWidth="794.0" style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;" AnchorPane.bottomAnchor="26.0">
             <columns>
-                <TableColumn fx:id="noColumn" prefWidth="104.0" text="教材编号" />
-                <TableColumn fx:id="nameColumn" prefWidth="172.0" text="教材名称" />
-                <TableColumn fx:id="versionColumn" prefWidth="78.0" text="版本" />
-                <TableColumn fx:id="priceColumn" prefWidth="98.0" text="单价" />
-                <TableColumn fx:id="storeColumn" prefWidth="107.0" text="库存" />
-                <TableColumn fx:id="pressColumn" prefWidth="230.0" text="出版社" />
+                <TableColumn fx:id="noColumn" prefWidth="172.0" style="-fx-alignment: CENTER;" text="教材编号" />
+                <TableColumn fx:id="nameColumn" prefWidth="172.0" style="-fx-alignment: CENTER;" text="教材名称" />
+                <TableColumn fx:id="versionColumn" prefWidth="52.0" style="-fx-alignment: CENTER;" text="版本" />
+                <TableColumn fx:id="priceColumn" prefWidth="56.0" style="-fx-alignment: CENTER;" text="单价" />
+                <TableColumn fx:id="storeColumn" prefWidth="89.0" style="-fx-alignment: CENTER;" text="库存" />
+                <TableColumn fx:id="pressColumn" prefWidth="248.0" style="-fx-alignment: CENTER;" text="出版社" />
             </columns>
             <padding>
                 <Insets left="10.0" right="10.0" />

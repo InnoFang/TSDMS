@@ -7,10 +7,6 @@ import javafx.beans.property.SimpleStringProperty;
  */
 public class Press {
 
-//    private String no;
-//    private String name;
-//    private String tel;
-
     private final SimpleStringProperty no = new SimpleStringProperty();
     private final SimpleStringProperty name = new SimpleStringProperty();
     private final SimpleStringProperty tel = new SimpleStringProperty();
