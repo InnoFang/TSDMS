@@ -11,26 +11,36 @@ import java.util.*;
  */
 public class UserManager {
 
+    public static Map<String, Object> CURRENT_USR = new HashMap<>();
+
     public static boolean validate(String user, String password, String type) {
 
         try {
+            Map<String, Object> map = null;
             if (type.equals(User.ADMIN)) {
-                return !JDBCUtils.get()
-                        .getQueryResult("select * from admin where Ano=? and Apassword=?", Arrays.asList(user, password))
-                        .isEmpty();
+                map = JDBCUtils.get()
+                        .getQueryResult("select * from admin where Ano=? and Apassword=?", Arrays.asList(user, password));
+
             } else {
-                return !JDBCUtils.get()
-                        .getQueryResult("select * from teacher where Tno=? and Tpassword=?", Arrays.asList(user, password))
-                        .isEmpty();
+                map = JDBCUtils.get()
+                        .getQueryResult("select * from teacher where Tno=? and Tpassword=?", Arrays.asList(user, password));
             }
+
+            if (map != null && !map.isEmpty()) {
+                CURRENT_USR.clear();
+                CURRENT_USR.putAll(map);
+                CURRENT_USR.put("type", type);
+                return true;
+            }
+            return false;
         } catch (SQLException e) {
             e.printStackTrace();
+            return false;
         }
-        return false;
     }
 
 
-    public static boolean register(User user){
+    public static boolean register(User user) {
         try {
             if (user.getUserType().equals(User.ADMIN)) {
                 return JDBCUtils.get()

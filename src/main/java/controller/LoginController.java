@@ -30,7 +30,7 @@ public class LoginController implements Initializable {
     @FXML
     RadioButton teacher;
 
-    ToggleGroup group;
+    private ToggleGroup group;
     private MainApp app;
 
     public void setApp(MainApp app) {
