@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.effect.Bloom?>
@@ -8,12 +9,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<?import java.net.URL?>
 <AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
     <children>
         <AnchorPane prefHeight="600.0" prefWidth="252.0" style="-fx-background-color: linear-gradient(to bottom,#7FB3D5,#AED6F1);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
-                <JFXButton id="menuButton" fx:id="btnOverview" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="150.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    教材信息查询" textFill="WHITE" />
+                <JFXButton id="menuButton" fx:id="btnOverview" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="150.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    教材信息管理" textFill="WHITE" />
                 <JFXButton id="menuButton" fx:id="btnSubscriptionInfoSearch" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="195.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    征订信息查询" textFill="WHITE" />
                 <JFXButton id="menuButton" fx:id="btnDistributionInfoSearch" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="240.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    发放信息查询" textFill="WHITE" />
                 <JFXButton id="menuButton" fx:id="btnTextbookDistribute" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="285.0" onAction="#onHandleAction" prefHeight="45.0" prefWidth="256.0" text="    教材发放" textFill="WHITE" />

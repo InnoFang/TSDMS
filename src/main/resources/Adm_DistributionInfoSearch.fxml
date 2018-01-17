@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.TableColumn?>
@@ -8,7 +15,7 @@
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TableView layoutX="10.0" layoutY="256.0" prefHeight="319.0" prefWidth="794.0" style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;" AnchorPane.bottomAnchor="25.0">
         <columns>
@@ -26,31 +33,88 @@
       </TableView>
       <AnchorPane layoutX="266.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
          <children>
-            <AnchorPane layoutX="-146.0" layoutY="32.0" prefHeight="174.0" prefWidth="617.0" style="-fx-background-color: #AED6F1;">
-               <children>
-                  <JFXTextField alignment="CENTER" layoutX="56.0" layoutY="102.0" promptText="教材名称">
-                     <effect>
-                        <Blend />
-                     </effect></JFXTextField>
-                  <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="102.0" promptText="发放日期">
-                     <effect>
-                        <Blend />
-                     </effect></JFXTextField>
-                  <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="22.0" promptText="教材编号">
-                     <effect>
-                        <Blend />
-                     </effect></JFXTextField>
-                  <JFXTextField alignment="CENTER" layoutX="47.0" layoutY="22.0" promptText="管理员编号">
-                     <effect>
-                        <Blend />
-                     </effect>
-                  </JFXTextField>
-               </children>
+            <AnchorPane layoutX="-185.0" layoutY="3.0" prefHeight="183.0" prefWidth="683.0" style="-fx-background-color: #AED6F1;">
                <effect>
                   <DropShadow />
                </effect>
+               <children>
+                  <Label layoutX="30.0" layoutY="23.0" text="管理员编号：" textFill="WHITE">
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="73.0" text="教材编号：" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="122.0" text="教材名称：" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="355.0" layoutY="23.0" text="出版社：" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="355.0" layoutY="61.0" text="数量：" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="355.0" layoutY="97.0" text="发放日期：" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="355.0" layoutY="134.0" text="领书人：" textFill="WHITE">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="162.0" layoutY="25.0" text="Label" textFill="WHITE" />
+                  <Label layoutX="162.0" layoutY="75.0" text="Label" textFill="WHITE" />
+                  <Label layoutX="162.0" layoutY="124.0" text="Label" textFill="WHITE" />
+                  <Label layoutX="471.0" layoutY="25.0" text="Label" textFill="WHITE" />
+                  <Label layoutX="471.0" layoutY="63.0" text="Label" textFill="WHITE" />
+                  <Label layoutX="471.0" layoutY="99.0" text="Label" textFill="WHITE" />
+                  <Label layoutX="471.0" layoutY="134.0" text="Label" textFill="WHITE" />
+               </children>
             </AnchorPane>
          </children>
       </AnchorPane>
+      <JFXTextField alignment="CENTER" layoutX="195.0" layoutY="205.0" promptText="管理员编号">
+         <effect>
+            <Blend />
+         </effect>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" layoutX="417.0" layoutY="207.0" promptText="教材编号">
+         <effect>
+            <Blend />
+         </effect>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="625.0" layoutY="207.0" style="-fx-background-color: #80DEEA;" text="查  询" textFill="WHITE" />
    </children>
 </AnchorPane>
