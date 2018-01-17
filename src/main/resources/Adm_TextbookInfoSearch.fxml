@@ -23,12 +23,12 @@
             <Insets left="10.0" right="10.0" />
          </padding>
       </TableView>
-           <JFXTextField alignment="CENTER" layoutX="175.0" layoutY="28.0" promptText="教材编号">
+           <JFXTextField alignment="CENTER" layoutX="175.0" layoutY="28.0" promptText="教师编号">
                <effect>
                    <Blend />
                </effect>
       </JFXTextField>
-           <JFXTextField alignment="CENTER" layoutX="475.0" layoutY="28.0" promptText="教材名称">
+           <JFXTextField alignment="CENTER" layoutX="475.0" layoutY="28.0" promptText="教师编号">
                <effect>
                    <Blend />
                </effect>

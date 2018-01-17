@@ -36,12 +36,13 @@ public class AdminController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        replacePane("../../resources/Adm_TextbookInfoSearch.fxml");
     }
 
     public void onHandleAction(ActionEvent event) {
         Object source = event.getSource();
 
-        if (source == btnOverview) replacePane("../../resources/Adm_Overview.fxml");
+        if (source == btnOverview) replacePane("../../resources/Adm_TextbookInfoSearch.fxml");
         else if (source == btnSubscriptionInfoSearch) replacePane("../../resources/Adm_SubscriptionInfoSearch.fxml");
         else if (source == btnDistributionInfoSearch) replacePane("../../resources/Adm_DistributionInfoSearch.fxml");
         else if (source == btnTextbookDistribute) replacePane("../../resources/Adm_TextbookDistribute.fxml");

@@ -29,7 +29,7 @@
            <children>
                <AnchorPane layoutX="-146.0" layoutY="32.0" prefHeight="174.0" prefWidth="617.0" style="-fx-background-color: #AED6F1;">
                    <children>
-                       <JFXTextField alignment="CENTER" layoutX="56.0" layoutY="102.0" promptText="教师编号" text="教材名称">
+                       <JFXTextField alignment="CENTER" layoutX="56.0" layoutY="102.0" promptText="教材名称">
                            <effect>
                                <Blend />
                            </effect></JFXTextField>
@@ -37,7 +37,7 @@
                            <effect>
                                <Blend />
                            </effect></JFXTextField>
-                       <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="22.0" promptText="教师编号" text="教材编号">
+                       <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="22.0" promptText="教材编号">
                            <effect>
                                <Blend />
                            </effect></JFXTextField>

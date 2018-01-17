@@ -31,13 +31,14 @@ public class TeacherController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        replaceScene("../../resources/Tea_TextbookInfoSearch.fxml");
     }
 
     public void onHandleAction(ActionEvent event) {
 
         Object source = event.getSource();
-        if (source == btnOverview) replaceScene("../../resources/Tea_Overview.fxml");
-        else if (source == btnTextbookSearch) replaceScene("../../resources/Tea_TextbookInfoSearch.fxml");
+//        if (source == btnOverview) replaceScene("../../resources/Tea_Overview.fxml");
+         if (source == btnTextbookSearch) replaceScene("../../resources/Tea_TextbookInfoSearch.fxml");
         else if (source == btnTextbookSubscribe) replaceScene("../../resources/Tea_TextbookSubscribe.fxml");
         else if (source == btnClassInfo) replaceScene("../../resources/Tea_ClassInfoManager.fxml");
         else if (source == btnTeacherInfo) replaceScene("../../resources/Tea_TeacherInfoManager.fxml");

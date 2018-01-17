@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.*?>
-<?import java.lang.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.layout.*?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.TableColumn?>
@@ -14,7 +8,7 @@
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TableView layoutX="10.0" layoutY="256.0" prefHeight="319.0" prefWidth="794.0" style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;" AnchorPane.bottomAnchor="25.0">
         <columns>
@@ -34,7 +28,7 @@
          <children>
             <AnchorPane layoutX="-146.0" layoutY="32.0" prefHeight="174.0" prefWidth="617.0" style="-fx-background-color: #AED6F1;">
                <children>
-                  <JFXTextField alignment="CENTER" layoutX="56.0" layoutY="102.0" promptText="教师编号" text="教材名称">
+                  <JFXTextField alignment="CENTER" layoutX="56.0" layoutY="102.0" promptText="教材名称">
                      <effect>
                         <Blend />
                      </effect></JFXTextField>
@@ -42,7 +36,7 @@
                      <effect>
                         <Blend />
                      </effect></JFXTextField>
-                  <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="22.0" promptText="教师编号" text="教材编号">
+                  <JFXTextField alignment="CENTER" layoutX="331.0" layoutY="22.0" promptText="教材编号">
                      <effect>
                         <Blend />
                      </effect></JFXTextField>
