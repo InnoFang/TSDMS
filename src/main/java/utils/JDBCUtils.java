@@ -22,7 +22,7 @@ public class JDBCUtils {
     private JDBCUtils() {
     }
 
-    public static JDBCUtils init() {
+    public static JDBCUtils get() {
         if (null == sInstance) {
             synchronized (JDBCUtils.class) {
                 if (null == sInstance) {

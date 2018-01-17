@@ -1,12 +1,8 @@
 package db;
 
-import dao.Admin;
-import dao.Teacher;
 import dao.User;
 import utils.JDBCUtils;
 
-import java.sql.Array;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
@@ -19,11 +15,11 @@ public class UserManager {
 
         try {
             if (type.equals(User.ADMIN)) {
-                return !JDBCUtils.init()
+                return !JDBCUtils.get()
                         .getQueryResult("select * from admin where Ano=? and Apassword=?", Arrays.asList(user, password))
                         .isEmpty();
             } else {
-                return !JDBCUtils.init()
+                return !JDBCUtils.get()
                         .getQueryResult("select * from teacher where Tno=? and Tpassword=?", Arrays.asList(user, password))
                         .isEmpty();
             }
@@ -37,11 +33,11 @@ public class UserManager {
     public static boolean register(User user){
         try {
             if (user.getUserType().equals(User.ADMIN)) {
-                return JDBCUtils.init()
+                return JDBCUtils.get()
                         .update("insert into admin values(?, ?, ?, NULL)",
                                 Arrays.asList(user.getUserId(), user.getPassword(), user.getContactInfo()));
             } else {
-                return JDBCUtils.init()
+                return JDBCUtils.get()
                         .update("insert into teacher values(?, ?, ?, NULL, NULL, NULL)",
                                 Arrays.asList(user.getUserId(), user.getPassword(), user.getContactInfo()));
             }
