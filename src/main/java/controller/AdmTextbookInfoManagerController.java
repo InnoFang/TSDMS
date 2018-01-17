@@ -63,10 +63,10 @@ public class AdmTextbookInfoManagerController implements Initializable {
         textbookPress.setText("");
 
         try {
-            List<Map<String, Object>> list = JDBCUtils.get().getQueryResults(
+            JDBCUtils.get().getQueryResults(
                     "SELECT Bno,Bname,Bversion,Bprice,Bnum,Pname FROM textbook, press WHERE textbook.Pno=press.Pno",
-                    new ArrayList<>());
-            list.forEach(map -> {
+                    new ArrayList<>()).forEach(map -> {
+
                 Textbook textbook = new Textbook();
                 textbook.setNo((String) map.get("Bno"));
                 textbook.setName((String) map.get("Bname"));
@@ -100,7 +100,7 @@ public class AdmTextbookInfoManagerController implements Initializable {
                     textbookName.setText((String) map.get("Bname"));
                     textbookVersion.setText((String) map.get("Bversion"));
                     textbookPrice.setText(String.valueOf(map.get("Bprice")));
-                    textbookStore.setText(String.valueOf( map.get("Bnum")));
+                    textbookStore.setText(String.valueOf(map.get("Bnum")));
                     textbookPress.setText((String) map.get("Pname"));
                 }
 
