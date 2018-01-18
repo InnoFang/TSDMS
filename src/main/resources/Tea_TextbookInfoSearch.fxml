@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
@@ -10,7 +17,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121"
+<AnchorPane id="pane" fx:id="pane" prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8"
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TeaTextbookInfoSearchController">
     <children>
         <TableView fx:id="textbookTable" layoutX="10.0" layoutY="255.0" prefHeight="336.0" prefWidth="794.0"
@@ -29,17 +36,15 @@
             </padding>
         </TableView>
         <JFXTextField fx:id="searchTextbookNo" alignment="CENTER" labelFloat="true" layoutX="464.0" layoutY="20.0"
-                      prefHeight="30.0"
-                      prefWidth="204.0" promptText="教材编号">
+                      prefHeight="30.0" prefWidth="204.0" promptText="教材编号">
             <font>
                 <Font name="Microsoft YaHei Light" size="15.0"/>
             </font>
         </JFXTextField>
-        <JFXButton fx:id="searchButton" buttonType="RAISED" layoutX="688.0" layoutY="20.0" prefHeight="30.0"
-                   prefWidth="95.0"
-                   style="-fx-background-color: #80DEEA;" text="搜   索" textAlignment="CENTER" textFill="WHITE"
-                   onAction="#onHandleSearch"/>
-        <Label layoutX="225.0" layoutY="89.0" text="教材编号：">
+        <JFXButton fx:id="searchTextbookNoButton" buttonType="RAISED" layoutX="688.0" layoutY="20.0"
+                   onAction="#onHandleSearchTextbookNo" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #80DEEA;"
+                   text="搜   索" textAlignment="CENTER" textFill="WHITE"/>
+        <Label layoutX="35.0" layoutY="106.0" text="教材编号：">
             <font>
                 <Font name="Microsoft YaHei Light" size="18.0"/>
             </font>
@@ -47,7 +52,7 @@
                 <Blend/>
             </effect>
         </Label>
-        <Label layoutX="225.0" layoutY="131.0" text="教材名称：">
+        <Label layoutX="35.0" layoutY="148.0" text="教材名称：">
             <effect>
                 <Blend/>
             </effect>
@@ -55,7 +60,7 @@
                 <Font name="Microsoft YaHei Light" size="18.0"/>
             </font>
         </Label>
-        <Label layoutX="225.0" layoutY="174.0" text="版本：">
+        <Label layoutX="35.0" layoutY="191.0" text="版本：">
             <effect>
                 <Blend/>
             </effect>
@@ -63,7 +68,7 @@
                 <Font name="Microsoft YaHei Light" size="18.0"/>
             </font>
         </Label>
-        <Label layoutX="463.0" layoutY="89.0" text="单价：">
+        <Label layoutX="273.0" layoutY="106.0" text="单价：">
             <effect>
                 <Blend/>
             </effect>
@@ -71,7 +76,7 @@
                 <Font name="Microsoft YaHei Light" size="18.0"/>
             </font>
         </Label>
-        <Label layoutX="463.0" layoutY="131.0" text="库存：">
+        <Label layoutX="273.0" layoutY="148.0" text="库存：">
             <effect>
                 <Blend/>
             </effect>
@@ -79,7 +84,7 @@
                 <Font name="Microsoft YaHei Light" size="18.0"/>
             </font>
         </Label>
-        <Label layoutX="463.0" layoutY="174.0" text="出版社：">
+        <Label layoutX="273.0" layoutY="191.0" text="出版社：">
             <effect>
                 <Blend/>
             </effect>
@@ -87,12 +92,21 @@
                 <Font name="Microsoft YaHei Light" size="18.0"/>
             </font>
         </Label>
-        <Label fx:id="textbookNo" layoutX="327.0" layoutY="92.0" text="Label1"/>
-        <Label fx:id="textbookName" layoutX="327.0" layoutY="134.0" text="Label2"/>
-        <Label fx:id="textbookVersion" layoutX="327.0" layoutY="177.0" text="Label3"/>
-        <Label fx:id="textbookPrice" layoutX="550.0" layoutY="92.0" text="Label4"/>
-        <Label fx:id="textbookStore" layoutX="550.0" layoutY="134.0" text="Label5"/>
-        <Label fx:id="textbookPress" layoutX="550.0" layoutY="177.0" text="Label6"/>
+        <Label fx:id="textbookNo" layoutX="137.0" layoutY="109.0" text="Label1"/>
+        <Label fx:id="textbookName" layoutX="137.0" layoutY="151.0" text="Label2"/>
+        <Label fx:id="textbookVersion" layoutX="137.0" layoutY="194.0" text="Label3"/>
+        <Label fx:id="textbookPrice" layoutX="360.0" layoutY="109.0" text="Label4"/>
+        <Label fx:id="textbookStore" layoutX="360.0" layoutY="151.0" text="Label5"/>
+        <Label fx:id="textbookPress" layoutX="360.0" layoutY="194.0" text="Label6"/>
+        <JFXTextField fx:id="searchTextbookName" alignment="CENTER" labelFloat="true" layoutX="464.0" layoutY="76.0"
+                      prefHeight="30.0" prefWidth="204.0" promptText="教材名称">
+            <font>
+                <Font name="Microsoft YaHei Light" size="15.0"/>
+            </font>
+        </JFXTextField>
+        <JFXButton fx:id="searchTextbookNameButton" buttonType="RAISED" layoutX="688.0" layoutY="76.0"
+                   onAction="#onHandleSearchTextbookName" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #80DEEA;"
+                   text="搜   索" textAlignment="CENTER" textFill="WHITE"/>
 
     </children>
 </AnchorPane>

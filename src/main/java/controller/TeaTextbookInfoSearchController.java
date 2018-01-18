@@ -29,25 +29,21 @@ public class TeaTextbookInfoSearchController implements Initializable {
     @FXML
     TableView<Textbook> textbookTable;
     @FXML
-    JFXTextField searchTextbookNo;
+    JFXTextField searchTextbookNo, searchTextbookName;
     @FXML
-    JFXButton searchButton;
+    JFXButton searchTextbookNoButton, searchTextbookNameButton;
     @FXML
     Label textbookNo, textbookName, textbookVersion, textbookPrice, textbookStore, textbookPress;
 
 
     private ObservableList<Textbook> textbookObservableList = FXCollections.observableArrayList();
+    private List<Textbook> textbookList = new ArrayList<>();
     private String[] columns = {"no", "name", "version", "price", "num", "pressName"};
     private int index = 0;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        textbookNo.setText("");
-        textbookStore.setText("");
-        textbookVersion.setText("");
-        textbookPrice.setText("");
-        textbookName.setText("");
-        textbookPress.setText("");
+        clean();
 
         try {
             JDBCUtils.get().getQueryResults(
@@ -62,6 +58,7 @@ public class TeaTextbookInfoSearchController implements Initializable {
                 textbook.setNum((Integer) map.get("Bnum"));
                 textbook.setPressName((String) map.get("Pname"));
                 textbookObservableList.add(textbook);
+                textbookList.add(textbook);
             });
 
             index = 0;
@@ -73,28 +70,51 @@ public class TeaTextbookInfoSearchController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        textbookTable.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+
+            Textbook value = observable.getValue();
+            if (null == value) return;
+            textbookNo.setText(value.getNo());
+            textbookName.setText(value.getName());
+            textbookPrice.setText(String.valueOf(value.getPrice()));
+            textbookVersion.setText(value.getVersion());
+            textbookStore.setText(String.valueOf(value.getNum()));
+            textbookPress.setText(value.getPressName());
+        });
     }
 
-    public void onHandleSearch() {
+    private void clean() {
+        textbookNo.setText("");
+        textbookStore.setText("");
+        textbookVersion.setText(" ");
+        textbookPrice.setText("");
+        textbookName.setText("");
+        textbookPress.setText("");
+    }
+
+    public void onHandleSearchTextbookNo() {
         String no = searchTextbookNo.getText();
-        if (!TextUtils.isEmpty(no)) {
-            try {
-                Map<String, Object> map = JDBCUtils.get()
-                        .getQueryResult("SELECT Bno,Bname,Bversion,Bprice,Bnum,Pname FROM textbook, press WHERE textbook.Pno=press.Pno AND textbook.Bno=?",
-                                Arrays.asList(no));
-                if (map.isEmpty()) {
-                    Toast.show(pane, "请输入要搜索的教材编号");
-                    return;
-                }
-                textbookNo.setText((String) map.get("Bno"));
-                textbookName.setText((String) map.get("Bname"));
-                textbookVersion.setText((String) map.get("Bversion"));
-                textbookPrice.setText(String.valueOf(map.get("Bprice")));
-                textbookStore.setText(String.valueOf(map.get("Bnum")));
-                textbookPress.setText((String) map.get("Pname"));
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+        if (TextUtils.isEmpty(no)) {
+            Toast.show(pane, "查询消息不能为空");
+            return;
         }
+        textbookObservableList.clear();
+        textbookList.stream()
+                .filter(textbook -> textbook.getNo().contains(no))
+                .forEach(textbook -> textbookObservableList.add(textbook));
+
+    }
+
+    public void onHandleSearchTextbookName() {
+        String name = searchTextbookName.getText();
+        if (TextUtils.isEmpty(name)) {
+            Toast.show(pane, "查询消息不能为空");
+            return;
+        }
+        textbookObservableList.clear();
+        textbookList.stream()
+                .filter(textbook -> textbook.getName().contains(name))
+                .forEach(textbook -> textbookObservableList.add(textbook));
     }
 }

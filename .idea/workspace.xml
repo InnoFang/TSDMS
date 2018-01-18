@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b072e22d-6ff2-4c60-aa0f-79204ec39d00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,26 +71,6 @@
     </expand>
     <select />
   </component>
-  <component name="DockManager">
-    <window id="7">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="AdmTextbookInfoManagerController.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="52">
-                    <caret line="115" column="44" lean-forward="false" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -147,50 +126,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Adm_TextbookInfoManager.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
+      <file leaf-file-name="AdmTextbookInfoManagerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="572">
+              <caret line="138" column="5" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="138" selection-end-column="5" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
+        </entry>
+      </file>
+      <file leaf-file-name="Tea_TextbookInfoSearch.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="107" column="56" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdmTextbookDistributeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2418">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdmSubscriptionInfoSearchController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="153" column="45" lean-forward="true" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Textbook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/Textbook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -223,7 +178,9 @@
       <find>adminNo</find>
       <find>TableCol</find>
       <find>onHandleSearch</find>
+      <find>fx:id=&quot;pane&quot;</find>
       <find>onAction</find>
+      <find>pane</find>
     </findStrings>
     <replaceStrings>
       <replace>replacePane</replace>
@@ -616,8 +573,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Teacher.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ClassInfo.java" />
@@ -635,6 +590,8 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
       </list>
     </option>
   </component>
@@ -957,12 +914,12 @@
       <workItem from="1516084300863" duration="9318000" />
       <workItem from="1516103242998" duration="676000" />
       <workItem from="1516149438994" duration="46416000" />
-      <workItem from="1516236931268" duration="19859000" />
+      <workItem from="1516236931268" duration="20597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136710000" />
+    <option name="totallyTimeSpent" value="137448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -1105,16 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="143" column="31" lean-forward="false" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1327,28 +1274,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1480,12 +1405,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="115" column="44" lean-forward="false" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="8" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
@@ -1496,6 +1424,33 @@
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="138" column="5" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="138" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="107" column="56" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
