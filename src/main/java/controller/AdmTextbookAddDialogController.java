@@ -12,6 +12,7 @@ import utils.TextUtils;
 import java.net.URL;
 import java.sql.SQLException;
 import java.util.Arrays;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
@@ -49,28 +50,33 @@ public class AdmTextbookAddDialogController extends BaseDialogController impleme
         int store = Integer.valueOf(storeInput.getText());
 
         try {
+            String pno = (String) JDBCUtils.get()
+                    .getQueryResult("SELECT Pno FROM press WHERE Pname=?", Arrays.asList(press))
+                    .get("Pno");
+
+            if (null == pno) {
+                errorMessage.setText("还没有该出版社的记录，需要先添加改出版社记录");
+                return;
+            }
+
+            Map<String, Object> map = JDBCUtils.get().getQueryResult("SELECT * FROM textbook WHERE Bno=?", Arrays.asList(no));
+
             // 如果原表中有该教材数据，那么更新数据，否则插入
-            if (!JDBCUtils.get().getQueryResult("SELECT * FROM textbook WHERE Bno=?", Arrays.asList(no)).isEmpty()) {
+            if (!map.isEmpty()) {
+
+                store += (Integer) map.get("Bnum");
+
                 JDBCUtils.get().update(
                         "UPDATE textbook " +
                                 "SET Bname=?, " +
                                 "Bversion=?, " +
                                 "Bprice=?, " +
                                 "Bnum=?, " +
-                                "Pno IN (SELECT Pno WHERE Pname=?) " +
-                                "WHERE Pno=?",
-                        Arrays.asList(name, version, price, store, press, no)
+                                "Pno=?" +
+                                "WHERE Bno=?",
+                        Arrays.asList(name, version, price, store, pno, no)
                 );
             } else {
-
-                String pno = (String) JDBCUtils.get()
-                        .getQueryResult("SELECT Pno FROM press WHERE Pname=?", Arrays.asList(press))
-                        .get("Pno");
-
-                if (null == pno) {
-                    errorMessage.setText("还没有该出版社的记录，需要先添加改出版社记录");
-                    return;
-                }
 
                 JDBCUtils.get().update(
                         "INSERT INTO textbook VALUES(?, ?, ?, ?, ?, ?)",

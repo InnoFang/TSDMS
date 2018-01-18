@@ -81,6 +81,7 @@ public class AdmTextbookInfoManagerController implements Initializable {
                 textbookList.add(textbook);
             });
 
+
             index = 0;
             textbookTable.getColumns().forEach(textbookTableColumn ->
                     textbookTableColumn.setCellValueFactory(new PropertyValueFactory<>(columns[index++]))

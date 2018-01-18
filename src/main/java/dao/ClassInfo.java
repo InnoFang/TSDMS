@@ -23,44 +23,16 @@ public class ClassInfo {
         this.monitor.set(monitor);
     }
 
-    public void setClassNo(String classNo) {
-        this.classNo.set(classNo);
-    }
-
-    public String getClassNo(String classNo) {
-        return this.classNo.get();
-    }
-
-    public void setCourse(String course) {
-        this.course.set(course);
-    }
-
-    public String getCourse(String course) {
-        return this.course.get();
-    }
-
-    public void setStuNumber(int number) {
-        this.stuNumber.set(number);
-    }
-
-    public int getStuNumber() {
-        return this.stuNumber.get();
-    }
-
     public String getClassNo() {
         return classNo.get();
     }
 
-    public void setMonitor(String monitor) {
-        this.monitor.set(monitor);
-    }
-
-    public String getMonitor() {
-        return this.monitor.get();
-    }
-
     public SimpleStringProperty classNoProperty() {
         return classNo;
+    }
+
+    public void setClassNo(String classNo) {
+        this.classNo.set(classNo);
     }
 
     public String getCourse() {
@@ -71,12 +43,32 @@ public class ClassInfo {
         return course;
     }
 
+    public void setCourse(String course) {
+        this.course.set(course);
+    }
+
+    public int getStuNumber() {
+        return stuNumber.get();
+    }
+
     public SimpleIntegerProperty stuNumberProperty() {
         return stuNumber;
     }
 
+    public void setStuNumber(int stuNumber) {
+        this.stuNumber.set(stuNumber);
+    }
+
+    public String getMonitor() {
+        return monitor.get();
+    }
+
     public SimpleStringProperty monitorProperty() {
         return monitor;
+    }
+
+    public void setMonitor(String monitor) {
+        this.monitor.set(monitor);
     }
 
     @Override
