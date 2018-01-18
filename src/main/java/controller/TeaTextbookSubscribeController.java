@@ -100,6 +100,7 @@ public class TeaTextbookSubscribeController implements Initializable {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            Toast.show(pane, "征订申请失败");
         }
     }
 }
