@@ -34,7 +34,7 @@ public class UserManager {
             }
             return false;
         } catch (SQLException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
             return false;
         }
     }
@@ -52,8 +52,8 @@ public class UserManager {
                                 Arrays.asList(user.getUserId(), user.getPassword(), user.getContactInfo()));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+            return false;
         }
-        return false;
     }
 }

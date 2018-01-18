@@ -87,7 +87,6 @@ public class AdmPressInfoDialogController extends BaseDialogController implement
 
                 Press press = new Press(no, name, tel);
                 pressObservableList.add(press);
-//                pressTable.refresh();
 
                 noInput.setText("");
                 nameInput.setText("");

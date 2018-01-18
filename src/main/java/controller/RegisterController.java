@@ -56,6 +56,8 @@ public class RegisterController implements Initializable {
         if (TextUtils.isEmpty(repeatPassword.getText())) { errorMessage.setText("重复密码不能为空"); return; }
         if (TextUtils.isEmpty(contactInfo.getText())) { errorMessage.setText("联系方式不能为空"); return; }
         if (!TextUtils.equals(password.getText(), repeatPassword.getText())) { errorMessage.setText("两次密码不相等"); return; }
+        if (repeatPassword.getText().length() < 6) { errorMessage.setText("密码长度不足 6 位，请修改"); return; }
+        if (TextUtils.isDigitsOnly(repeatPassword.getText())) { errorMessage.setText("密码强度太弱，不能只包含数字，请修改"); return; }
 
         String type = admin.isSelected() ? User.ADMIN : teacher.isSelected() ? User.TEACHER : "";
         if (type.equals("")) { errorMessage.setText("用户类型不能为空"); return; }
