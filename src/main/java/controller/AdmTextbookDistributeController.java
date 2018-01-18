@@ -23,7 +23,6 @@ import utils.TextUtils;
 import utils.Toast;
 
 import java.net.URL;
-import java.sql.Array;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -4,6 +4,8 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import controller.base.BaseDialogController;
 import dao.Textbook;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -19,7 +21,9 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import utils.JDBCUtils;
 import utils.TextUtils;
+import utils.Toast;
 
+import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
@@ -29,6 +33,9 @@ import java.util.*;
  * Created by Inno Fang on 2018/1/17.
  */
 public class AdmTextbookInfoManagerController implements Initializable {
+
+    @FXML
+    AnchorPane pane;
 
     @FXML
     TableView<Textbook> textbookTable;
@@ -41,26 +48,22 @@ public class AdmTextbookInfoManagerController implements Initializable {
     TableColumn<Textbook, Integer> storeColumn;
 
     @FXML
-    JFXTextField searchTextbookNo;
+    JFXTextField searchTextbookNo, searchTextbookName;
 
     @FXML
-    JFXButton addTextbookButton, pressInfoButton, searchButton;
+    JFXButton addTextbookButton, pressInfoButton, searchTextbookNoButton, searchTextbookNameButton;
 
     @FXML
     Label textbookNo, textbookName, textbookVersion, textbookPrice, textbookStore, textbookPress;
 
     private ObservableList<Textbook> textbookObservableList = FXCollections.observableArrayList();
+    private List<Textbook> textbookList = new ArrayList<>();
     private String[] columns = {"no", "name", "version", "price", "num", "pressName"};
     private int index = 0;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        textbookNo.setText("");
-        textbookName.setText("");
-        textbookVersion.setText("");
-        textbookPrice.setText("");
-        textbookStore.setText("");
-        textbookPress.setText("");
+        clean();
 
         try {
             JDBCUtils.get().getQueryResults(
@@ -75,6 +78,7 @@ public class AdmTextbookInfoManagerController implements Initializable {
                 textbook.setNum((Integer) map.get("Bnum"));
                 textbook.setPressName((String) map.get("Pname"));
                 textbookObservableList.add(textbook);
+                textbookList.add(textbook);
             });
 
             index = 0;
@@ -86,28 +90,52 @@ public class AdmTextbookInfoManagerController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        textbookTable.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+
+            Textbook value = observable.getValue();
+            if (null == value) return;
+            textbookNo.setText(value.getNo());
+            textbookName.setText(value.getName());
+            textbookVersion.setText(value.getVersion());
+            textbookPrice.setText(String.valueOf(value.getPrice()));
+            textbookStore.setText(String.valueOf(value.getNum()));
+            textbookPress.setText(value.getPressName());
+        });
     }
 
-    public void onHandleSearch() {
-        String no = searchTextbookNo.getText();
-        if (!TextUtils.isEmpty(no)) {
-            try {
-                Map<String, Object> map = JDBCUtils.get()
-                        .getQueryResult("SELECT Bno,Bname,Bversion,Bprice,Bnum,Pname FROM textbook, press WHERE textbook.Pno=press.Pno AND textbook.Bno=?",
-                                Arrays.asList(no));
-                if (!map.isEmpty()) {
-                    textbookNo.setText((String) map.get("Bno"));
-                    textbookName.setText((String) map.get("Bname"));
-                    textbookVersion.setText((String) map.get("Bversion"));
-                    textbookPrice.setText(String.valueOf(map.get("Bprice")));
-                    textbookStore.setText(String.valueOf(map.get("Bnum")));
-                    textbookPress.setText((String) map.get("Pname"));
-                }
+    private void clean() {
+        textbookNo.setText("");
+        textbookName.setText("");
+        textbookVersion.setText("");
+        textbookPrice.setText(" ");
+        textbookStore.setText("");
+        textbookPress.setText("");
+    }
 
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+    public void onHandleSearchTextbookNo() {
+        String no = searchTextbookNo.getText();
+        if (TextUtils.isEmpty(no)) {
+            Toast.show(pane, "查询消息不能为空");
+            return;
         }
+        textbookObservableList.clear();
+        textbookList.stream()
+                .filter(textbook -> textbook.getNo().contains(no))
+                .forEach(textbook -> textbookObservableList.add(textbook));
+
+    }
+
+    public void onHandleSearchTextbookName() {
+        String name = searchTextbookName.getText();
+        if (TextUtils.isEmpty(name)) {
+            Toast.show(pane, "查询消息不能为空");
+            return;
+        }
+        textbookObservableList.clear();
+        textbookList.stream()
+                .filter(textbook -> textbook.getName().contains(name))
+                .forEach(textbook -> textbookObservableList.add(textbook));
     }
 
     public void onHandleShowPressInfo() {
