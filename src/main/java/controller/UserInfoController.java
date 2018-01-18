@@ -117,6 +117,15 @@ public class UserInfoController implements Initializable {
             return;
         }
 
+        if (repeat.length() < 6) {
+            Toast.show(pane, "密码长度不足 6 位，请修改");
+            return;
+        }
+        if (TextUtils.isDigitsOnly(repeat)) {
+            Toast.show(pane, "密码强度太弱，不能只包含数字，请修改");
+            return;
+        }
+
 
         try {
             String truePassword;
@@ -150,18 +159,3 @@ public class UserInfoController implements Initializable {
 
     }
 }
-
-/*
-// deprecation
-            JFXDialogLayout content = new JFXDialogLayout();
-            content.setHeading(new Text("注意"));
-            content.setBody(new Text("更新信息不能为空"));
-            StackPane stackPane = new StackPane();
-            stackPane.setAlignment(Pos.CENTER);
-            stackPane.setMaxSize(100, 100);
-            JFXDialog dialog = new JFXDialog(stackPane, content, JFXDialog.DialogTransition.CENTER);
-            JFXButton button = new JFXButton("知道了");
-            button.setOnAction(event -> dialog.close());
-            content.setActions(button);
-            dialog.show();
- */

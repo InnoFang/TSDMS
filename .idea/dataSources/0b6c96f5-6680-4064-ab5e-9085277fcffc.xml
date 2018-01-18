@@ -37,6 +37,7 @@
     <column id="23" parent="13" name="Atel">
       <Position>3</Position>
       <DataType>char(15)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
     <column id="24" parent="13" name="Aname">
       <Position>4</Position>
@@ -45,7 +46,6 @@
     <column id="25" parent="13" name="Asex">
       <Position>5</Position>
       <DataType>enum(&apos;男&apos;, &apos;女&apos;)|0</DataType>
-      <NotNull>1</NotNull>
       <DefaultExpression>&apos;男&apos;</DefaultExpression>
     </column>
     <key id="26" parent="13" name="PRIMARY">
@@ -153,6 +153,7 @@
     <column id="48" parent="18" name="Ttel">
       <Position>3</Position>
       <DataType>char(15)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
     <column id="49" parent="18" name="Tname">
       <Position>4</Position>

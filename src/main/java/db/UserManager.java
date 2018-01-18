@@ -39,12 +39,11 @@ public class UserManager {
         }
     }
 
-
     public static boolean register(User user) {
         try {
             if (user.getUserType().equals(User.ADMIN)) {
                 return JDBCUtils.get()
-                        .update("insert into admin values(?, ?, ?, NULL)",
+                        .update("insert into admin values(?, ?, ?, NULL, NULL)",
                                 Arrays.asList(user.getUserId(), user.getPassword(), user.getContactInfo()));
             } else {
                 return JDBCUtils.get()
