@@ -25,13 +25,13 @@
                    style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;"
                    AnchorPane.bottomAnchor="25.0">
             <columns>
-                <TableColumn prefWidth="104.0" styleClass=".table-view" text="教师编号"/>
-                <TableColumn prefWidth="110.0" text="教材编号"/>
-                <TableColumn prefWidth="140.0" text="教材名称"/>
-                <TableColumn prefWidth="52.0" text="版本"/>
-                <TableColumn prefWidth="159.0" text="出版社"/>
-                <TableColumn prefWidth="57.0" text="数量"/>
-                <TableColumn prefWidth="162.0" text="征订日期"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="104.0" text="教师编号"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="110.0" text="教材编号"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="140.0" text="教材名称"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="52.0" text="版本"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="159.0" text="出版社"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="57.0" text="数量"/>
+                <TableColumn style="-fx-alignment: CENTER;" prefWidth="162.0" text="征订日期"/>
             </columns>
             <padding>
                 <Insets left="10.0" right="10.0"/>

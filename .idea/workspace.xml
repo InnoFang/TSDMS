@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b072e22d-6ff2-4c60-aa0f-79204ec39d00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/AdmDistributionInfoSearchController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/Distribution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,12 +65,6 @@
         <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="tsdms" type="e3449647:DbNodeDescriptor" />
         <item name="press" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="subscription" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
@@ -156,11 +152,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Adm_TextbookDistribute.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
+      <file leaf-file-name="Tea_ClassInfoManager.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="90" column="70" lean-forward="false" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+            <state relative-caret-position="208">
+              <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -169,53 +165,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeaClassInfoManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaClassInfoManager.java">
+      <file leaf-file-name="Adm_TextbookDistribute.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+            <state relative-caret-position="672">
+              <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeacherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdmTextbookInfoManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdmPressInfoDialogController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-              <folding />
-            </state>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -243,11 +202,16 @@
       <find>courseInput</find>
       <find>newValue</find>
       <find>Stack</find>
+      <find>collector</find>
+      <find>observable.getValue()</find>
+      <find>adminNo</find>
+      <find>TableCol</find>
     </findStrings>
     <replaceStrings>
       <replace>replacePane</replace>
       <replace>replaceScene</replace>
       <replace>observable.getValue()</replace>
+      <replace>value</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -602,8 +566,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/Test3.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Test4.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Test5.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/OperationController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Operation.fxml" />
@@ -618,7 +580,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/TeacherController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoSearch.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Admin.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java" />
@@ -650,9 +611,12 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdmDistributionInfoSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" />
       </list>
     </option>
   </component>
@@ -723,6 +687,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
@@ -967,12 +939,12 @@
       <workItem from="1516084300863" duration="9318000" />
       <workItem from="1516103242998" duration="676000" />
       <workItem from="1516149438994" duration="46416000" />
-      <workItem from="1516236931268" duration="14855000" />
+      <workItem from="1516236931268" duration="18403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131706000" />
+    <option name="totallyTimeSpent" value="135254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -990,8 +962,8 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49721915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24678111" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.48873484" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23980686" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.48873484" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1023,32 +995,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_91/javafx-src.zip!/javafx/scene/control/TableView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="1584" column="16" lean-forward="false" selection-start-line="1584" selection-start-column="16" selection-end-line="1584" selection-end-column="16" />
-          <folding>
-            <element signature="e#70179#70180#0" expanded="false" />
-            <element signature="e#70256#70257#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="4784" column="24" lean-forward="true" selection-start-line="4784" selection-start-column="24" selection-end-line="4784" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1083,14 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1143,30 +1081,6 @@
             <element signature="imports" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <marker date="1516195404027" expanded="true" signature="2733:2753" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserInfoController.java">
@@ -1244,85 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_PressInfoDialog.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="93" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <marker date="1516174153999" expanded="true" signature="4737:4755" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.press">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1341,14 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1400,76 +1227,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.distribution">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="90" column="70" lean-forward="false" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaClassInfoManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1494,10 +1255,235 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="297">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="107" column="18" lean-forward="false" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2381#2382#0" expanded="true" />
+            <element signature="e#2416#2417#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#2498#2499#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+            <element signature="e#2578#2579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.distribution">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="153" column="45" lean-forward="true" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmDistributionInfoSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="143" column="47" lean-forward="false" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_PressInfoDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="93" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <marker date="1516256491451" expanded="true" signature="6449:6450" ph="..." />
+            <marker date="1516256491451" expanded="true" signature="6449:6466" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <marker date="1516174153999" expanded="true" signature="4737:4755" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_Overview.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <marker date="1516195404027" expanded="true" signature="2733:2753" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>

@@ -92,14 +92,15 @@ public class AdmSubscriptionInfoSearchController implements Initializable {
         subscriptionTable.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Subscription>() {
             @Override
             public void changed(ObservableValue<? extends Subscription> observable, Subscription oldValue, Subscription newValue) {
-                if (null == observable.getValue()) return;
-                teacherNo.setText(observable.getValue().getTeacherNo());
-                textbookNo.setText(observable.getValue().getTextbookNo());
-                textbookName.setText(observable.getValue().getTextbookName());
-                subscribeDate.setText(observable.getValue().getSubscribeDate());
-                number.setText(observable.getValue().getNumber() + "");
-                version.setText(observable.getValue().getVersion());
-                press.setText(observable.getValue().getPress());
+                Subscription value = observable.getValue();
+                if (null == value) return;
+                teacherNo.setText(value.getTeacherNo());
+                textbookNo.setText(value.getTextbookNo());
+                textbookName.setText(value.getTextbookName());
+                subscribeDate.setText(value.getSubscribeDate());
+                number.setText(value.getNumber() + "");
+                version.setText(value.getVersion());
+                press.setText(value.getPress());
             }
         });
     }
@@ -117,14 +118,14 @@ public class AdmSubscriptionInfoSearchController implements Initializable {
     public void onHandleSearch(ActionEvent event) {
         Object button = event.getSource();
         if (button == searchTeacherNoButton) {
-            String teaNo = teacherNoInput.getText();
-            if (TextUtils.isEmpty(teaNo)) {
+            String teacher = teacherNoInput.getText();
+            if (TextUtils.isEmpty(teacher)) {
                 Toast.show(pane, "查询信息不能为空");
                 return;
             }
             subscriptionObservableList.clear();
             subscriptionList.stream()
-                    .filter(subscription -> subscription.getTeacherNo().contains(teaNo))
+                    .filter(subscription -> subscription.getTeacherNo().contains(teacher))
                     .forEach(action -> subscriptionObservableList.add(action));
 
         } else if (button == searchTextbookNoButton) {
