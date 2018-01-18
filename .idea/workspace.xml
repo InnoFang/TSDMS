@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b072e22d-6ff2-4c60-aa0f-79204ec39d00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" afterPath="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,30 +45,6 @@
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="admin" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="distribution" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="press" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="textbook" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
@@ -125,27 +103,68 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AdmTextbookInfoManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="TeaTextbookSubscribeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="138" column="5" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="138" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="2028">
+              <caret line="98" column="44" lean-forward="false" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tea_TextbookInfoSearch.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="107" column="56" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="56" />
-              <folding />
+      <file leaf-file-name="distribution" pinned="false" current-in-tab="false">
+        <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.distribution">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="subscription" pinned="false" current-in-tab="false">
+        <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.subscription">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdmTextbookDistributeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-189">
+              <caret line="179" column="41" lean-forward="false" selection-start-line="179" selection-start-column="41" selection-end-line="179" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textbook" pinned="false" current-in-tab="false">
+        <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.textbook">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4706">
+              <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding>
+                <marker date="1516159944978" expanded="true" signature="2055:2090" ph="INSERT INTO test... " />
+                <marker date="1516159944978" expanded="true" signature="3458:3486" ph="DELETE FROM " />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -580,18 +599,18 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/TeaClassInfoManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/Subscription.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/Distribution.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmDistributionInfoSearchController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
       </list>
     </option>
   </component>
@@ -629,7 +648,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -682,9 +700,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -914,19 +933,19 @@
       <workItem from="1516084300863" duration="9318000" />
       <workItem from="1516103242998" duration="676000" />
       <workItem from="1516149438994" duration="46416000" />
-      <workItem from="1516236931268" duration="20597000" />
+      <workItem from="1516236931268" duration="24059000" />
+      <workItem from="1516262692335" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137448000" />
+    <option name="totallyTimeSpent" value="141022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -937,9 +956,8 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49721915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23980686" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.48873484" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24302575" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.48873484" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -951,8 +969,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22854078" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.51126516" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -974,14 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.textbook">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -996,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="96" column="13" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="47" column="37" lean-forward="false" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,17 +1070,6 @@
           <caret line="143" column="31" lean-forward="false" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <marker date="1516159944978" expanded="true" signature="2055:2090" ph="INSERT INTO test... " />
-            <marker date="1516159944978" expanded="true" signature="3458:3486" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -1120,13 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.subscription">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -1149,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="159" column="31" lean-forward="false" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,17 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="170" column="7" lean-forward="true" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="102" column="39" lean-forward="false" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,14 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1243,13 +1211,6 @@
             <element signature="e#2539#2540#0" expanded="true" />
             <element signature="e#2578#2579#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.distribution">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1385,16 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2418">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
@@ -1427,14 +1378,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="138" column="5" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="138" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -1452,6 +1395,74 @@
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="138" column="5" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="138" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.subscription">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="98" column="44" lean-forward="false" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4706">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <marker date="1516159944978" expanded="true" signature="2055:2090" ph="INSERT INTO test... " />
+            <marker date="1516159944978" expanded="true" signature="3458:3486" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.textbook">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.distribution">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="179" column="41" lean-forward="false" selection-start-line="179" selection-start-column="41" selection-end-line="179" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

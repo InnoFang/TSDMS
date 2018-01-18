@@ -23,12 +23,10 @@ import utils.TextUtils;
 import utils.Toast;
 
 import java.net.URL;
+import java.sql.Array;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.ResourceBundle;
+import java.util.*;
 
 /**
  * Created by Inno Fang on 2018/1/18.
@@ -151,6 +149,7 @@ public class AdmTextbookDistributeController implements Initializable {
     }
 
     private void distributeTextbook(JFXDialog dialog) {
+
         String teacher = teacherNo.getText();
         String bookNo = textbookNo.getText();
         String bookName = textbookName.getText();
@@ -158,6 +157,26 @@ public class AdmTextbookDistributeController implements Initializable {
         String person = collector.getText();
         String date = new SimpleDateFormat("yyyy/MM/dd").format(new Date());
         try {
+
+            int textBookStoreNumber = (int) JDBCUtils.get()
+                    .getQueryResult("SELECT Bnum FROM textbook WHERE Bno=?", Arrays.asList(bookNo))
+                    .get("Bnum");
+
+            // 检查库存
+            if (textBookStoreNumber < Integer.valueOf(num)) {
+                JFXDialogLayout content = new JFXDialogLayout();
+                content.setHeading(new Text("教材发放失败"));
+                String text = "教材 " + bookName + " (编号 " + bookNo + ")" +
+                        " 库存不足(" + textBookStoreNumber + "<" + num + ")";
+                content.setBody(new Text(text));
+                JFXDialog alert = new JFXDialog(stackPane, content, JFXDialog.DialogTransition.CENTER);
+                JFXButton confirm = new JFXButton("知道了");
+                confirm.setOnAction(event -> alert.close());
+                content.setActions(confirm);
+                alert.show();
+                return;
+            }
+
             boolean res = JDBCUtils.get()
                     .update("INSERT INTO distribution VALUES(?, ?, ?, ?, ?, ?)",
                             Arrays.asList(admin, bookNo, bookName, num, person, date));
@@ -173,6 +192,9 @@ public class AdmTextbookDistributeController implements Initializable {
                     // 教材已发放，移除选中的征订请求
                     subscriptionTable.getItems().removeAll(subscriptionTable.getSelectionModel().getSelectedItem());
                     Toast.show(pane, "教材发放成功");
+
+                    // 更新教材库存信息
+                    updateTextbookInfo(bookNo, Integer.valueOf(num), textBookStoreNumber);
                     dialog.close();
                     clean();
                 }
@@ -182,6 +204,26 @@ public class AdmTextbookDistributeController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
             Toast.show(pane, "教材发放失败");
+        }
+    }
+
+    private void updateTextbookInfo(String bookNo, int num, int textBookStoreNumber) {
+        try {
+            // 如果库存与取出数量相等，则删除该教材库存信息
+            // 否则更新教材的库存数量
+            if (num == textBookStoreNumber) {
+                JDBCUtils.get()
+                        .update("DELETE FROM textbook WHERE Bno=?", Arrays.asList(bookNo));
+            } else {
+                int surplus = textBookStoreNumber - num;
+                JDBCUtils.get()
+                        .update("UPDATE textbook " +
+                                        "SET Bnum=? " +
+                                        "WHERE Bno=?",
+                                Arrays.asList(surplus, bookNo));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 

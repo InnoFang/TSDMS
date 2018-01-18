@@ -95,6 +95,8 @@ public class TeaTextbookSubscribeController implements Initializable {
                             Arrays.asList(teacherNo, textbookNo, subscribeNum, "N", date));
             if (res) {
                 Toast.show(pane, "征订申请成功");
+                subscribeNumInput.setText("");
+                textbookNoInput.setText("");
             } else {
                 Toast.show(pane, "征订申请失败");
             }
