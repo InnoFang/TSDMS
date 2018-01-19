@@ -1,7 +1,30 @@
 # TSDMS
+
+
 Textbook Subscription and Distribution Manager System.
 
+# Screenshot
 
+## Administrator
+
+<img src="./screenshot/login.jpg" align="center"/>
+<img src="./screenshot/register.jpg" align="center"/>
+<img src="./screenshot/admin_textbook.jpg" align="center"/>
+<img src="./screenshot/addtextbook" align="center"/>
+<img src="./screenshot/press.jpg" align="center"/>
+<img src="./screenshot/distributionInfoSearch.jpg" align="center"/>
+<img src="./screenshot/subscriptionInfoSearch.jpg" align="center"/>
+<img src="./screenshot/distributeTextbook.jpg" align="center"/>
+<img src="./screenshot/confirmToDistribute.jpg" align="center"/>
+<img src="./screenshot/AdminInfo.jpg" align="center"/>
+
+
+## Teacher
+
+<img src="./screenshot/teaTextbookSearch.jpg" align="center"/>
+<img src="./screenshot/textbookSubscription.jpg" align="center"/>
+<img src="./screenshot/classInfoManager.jpg" align="center"/>
+<img src="./screenshot/teacherInfo.jpg" align="center"/>
 
 # [License](https://github.com/InnoFang/TSDMS/blob/master/LICENSE)
 
