@@ -3,28 +3,69 @@
 
 Textbook Subscription and Distribution Manager System.
 
+
+
 # Screenshot
+
+## Common
+
+	+ Login
+	+ Register
+
+<br />
+<br />
+<div align="center" >
+	<img src="./screenshot/login.jpg" />
+	<img src="./screenshot/register.jpg" />
+</div>
+<br />
+<br />
 
 ## Administrator
 
-<img src="./screenshot/login.jpg" align="center"/>
-<img src="./screenshot/register.jpg" align="center"/>
-<img src="./screenshot/admin_textbook.jpg" align="center"/>
-<img src="./screenshot/addtextbook" align="center"/>
-<img src="./screenshot/press.jpg" align="center"/>
-<img src="./screenshot/distributionInfoSearch.jpg" align="center"/>
-<img src="./screenshot/subscriptionInfoSearch.jpg" align="center"/>
-<img src="./screenshot/distributeTextbook.jpg" align="center"/>
-<img src="./screenshot/confirmToDistribute.jpg" align="center"/>
-<img src="./screenshot/AdminInfo.jpg" align="center"/>
+ + Textbook information manager
+ + Add textbook
+ + Add press information
+ + Subscription information search
+ + Distribution information search
+ + Distribute textbook
+ + Administrator information manager
 
+<br />
+<br />
+<div align="center">
+	<img src="./screenshot/admin_textbook.jpg" />
+	<img src="./screenshot/addtextbook.jpg"  />
+	<img src="./screenshot/press.jpg"  />
+	<img src="./screenshot/subscriptionInfoSearch.jpg"  />
+	<img src="./screenshot/distributionInfoSearch.jpg"  />
+	<img src="./screenshot/distributeTextbook.jpg"  />
+	<img src="./screenshot/confirmToDistribute.jpg"  />
+	<img src="./screenshot/AdminInfo.jpg" />
+</div> 
+
+<br />
+<br />
 
 ## Teacher
 
-<img src="./screenshot/teaTextbookSearch.jpg" align="center"/>
-<img src="./screenshot/textbookSubscription.jpg" align="center"/>
-<img src="./screenshot/classInfoManager.jpg" align="center"/>
-<img src="./screenshot/teacherInfo.jpg" align="center"/>
+ + Textbook infomation manager
+ + Subscribe textbook
+ + Class information manager
+ + Teacher information manager
+
+<br />
+<br />
+<div align="center">
+	<img src="./screenshot/teaTextbookSearch.jpg" />
+	<img src="./screenshot/textbookSubscription.jpg" />
+	<img src="./screenshot/classInfoManager.jpg"  />
+	<img src="./screenshot/teacherInfo.jpg"  />
+</div> 
+
+<br />
+<br />
+<br />
 
 # [License](https://github.com/InnoFang/TSDMS/blob/master/LICENSE)
 
