@@ -1,16 +1,15 @@
 # TSDMS
 
-
 Textbook Subscription and Distribution Manager System.
+
+<br />
 
 ![](https://img.shields.io/badge/IDE-Intellij%20IDEA-D5DBDB.svg)
 ![](https://img.shields.io/badge/Database-MySQL-82E0AA.svg)
 ![](https://img.shields.io/badge/language-Java-F4D03F.svg)
 ![](https://img.shields.io/badge/GUI-JavaFx-F1C40F.svg)
 
- + JavaFx
- + MySQL
- + IntelliJ IDEA
+<br />
 
 # How to import
 
