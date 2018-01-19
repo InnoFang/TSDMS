@@ -15,7 +15,7 @@ public class JDBCUtils {
     private String username;
     private String password;
 
-    private final static String INIT_FILE = "F:\\IDEA Project\\TSDMS\\src\\main\\java\\mysql.ini";
+    private final static String INIT_FILE = "F:/IDEA Project/TSDMS/src/main/java/mysql.ini";
 
     private static volatile JDBCUtils sInstance;
 

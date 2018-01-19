@@ -33,6 +33,17 @@ mysql> source <project path>/tsdms.sql;
 
 Under the `<project path>/src/main/java` floder, there is a file called `mysql.ini`, which contains the configuration information of your MySQL , including the account and password, you should change it to your own.
 
+Then open the `JDBCUtils.java` under the `<project path>/src/main/java/utils`, set your `mysql.ini` location path to param `INIT_FILE`
+
+For example, my code is as follows:
+
+```java
+private final static String INIT_FILE = "F:/IDEA Project/TSDMS/src/main/java/mysql.ini";
+```
+
+you should change it to your own
+
+
 **3. Import this project**
 
 After the above steps have been completed, you can use IntelliJ IDEA to import the project.

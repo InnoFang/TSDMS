@@ -24,7 +24,7 @@ import java.util.ResourceBundle;
 /**
  * Created by Inno Fang on 2018/1/17.
  */
-public class TeaClassInfoManager implements Initializable {
+public class TeaClassInfoManagerController implements Initializable {
 
     @FXML
     AnchorPane pane;
