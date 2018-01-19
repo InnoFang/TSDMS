@@ -3,14 +3,48 @@
 
 Textbook Subscription and Distribution Manager System.
 
+ + JavaFx
+ + MySQL
+ + IntelliJ IDEA
+
+# Import Project
+
+If you want to import this project, you should modify some cofigurarion information first.
+
+**1. Import SQL File**
+
+Enter your MySQL, then create a database name `tsdms` (Of course, you should ensure `tsdms` database is empty)
+
+```mysql
+mysql> CREATE DATABASE tsdms;
+```
+
+Then use it
+```mysql
+mysql> USE tsdms;
+```
+
+Now you can input the below code to import `tsdms.sql` file, and the `<project path>` is the current path to this project.
+```mysql
+mysql> source <project path>/tsdms.sql;
+```
+
+**2. Change Configure File**
+
+Under the `<project path>/src/main/java` floder, there is a file called `mysql.ini`, which contains the configuration information of your MySQL , including the account and password, you should change it to your own.
+
+**3. Import this project**
+
+After the above steps have been completed, you can use IntelliJ IDEA to import the project.
+
 
 
 # Screenshot
 
 ## Common
 
-	+ Login
-	+ Register
+ + Login
+ + Register
 
 <br />
 <br />
