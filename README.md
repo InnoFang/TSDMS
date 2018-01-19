@@ -3,11 +3,16 @@
 
 Textbook Subscription and Distribution Manager System.
 
+![](https://img.shields.io/badge/IDE-Intellij%20IDEA-D5DBDB.svg)
+![](https://img.shields.io/badge/Database-MySQL-82E0AA.svg)
+![](https://img.shields.io/badge/language-Java-F4D03F.svg)
+![](https://img.shields.io/badge/GUI-JavaFx-F1C40F.svg)
+
  + JavaFx
  + MySQL
  + IntelliJ IDEA
 
-# Import Project
+# How to import
 
 If you want to import this project, you should modify some cofigurarion information first.
 
@@ -105,7 +110,7 @@ After the above steps have been completed, you can use IntelliJ IDEA to import t
 
 
 
-			Copyright [yyyy] [name of copyright owner]
+			Copyright 2017 InnoFang
 
 			Licensed under the Apache License, Version 2.0 (the "License");
 			you may not use this file except in compliance with the License.
