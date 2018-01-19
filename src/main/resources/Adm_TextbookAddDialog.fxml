@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F3E5F5;"
             xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="controller.AdmTextbookAddDialogController">
+            fx:controller="main.java.controller.AdmTextbookAddDialogController">
     <children>
         <JFXTextField fx:id="noInput" labelFloat="true" layoutX="30.0" layoutY="82.0" prefHeight="30.0"
                       prefWidth="260.0" promptText="教材编号">

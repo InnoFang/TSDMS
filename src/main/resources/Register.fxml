@@ -9,29 +9,41 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0"
+            prefWidth="540.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="main.java.controller.RegisterController">
     <children>
         <ImageView fitHeight="209.0" fitWidth="540.0" pickOnBounds="true" preserveRatio="false">
             <image>
-                <Image preserveRatio="false" requestedHeight="209.0" requestedWidth="540.0" smooth="true" url="@/image/tsdms.png" />
+                <Image preserveRatio="false" requestedHeight="209.0" requestedWidth="540.0" smooth="true"
+                       url="@/main/resources/image/tsdms.png"/>
             </image>
         </ImageView>
-        <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="43.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="43.0" layoutY="246.0" pickOnBounds="true"
+                   preserveRatio="true">
             <image>
-                <Image preserveRatio="true" smooth="true" url="@/image/admin.png" />
+                <Image preserveRatio="true" smooth="true" url="@/main/resources/image/admin.png"/>
             </image>
         </ImageView>
-        <TextField fx:id="userId" layoutX="169.0" layoutY="246.0" prefHeight="30.0" prefWidth="243.0" promptText="用  户  名" />
-        <TextField fx:id="contactInfo" layoutX="169.0" layoutY="286.0" prefHeight="30.0" prefWidth="243.0" promptText="联系方式" />
-        <PasswordField fx:id="password" layoutX="169.0" layoutY="326.0" prefHeight="30.0" prefWidth="243.0" promptText="密       码" />
-        <PasswordField fx:id="repeatPassword" layoutX="169.0" layoutY="363.0" prefHeight="30.0" prefWidth="243.0" promptText="重复密码" />
-        <JFXRadioButton fx:id="admin" layoutX="153.0" layoutY="399.0" mnemonicParsing="false" text="管理员" />
-        <JFXRadioButton fx:id="teacher" layoutX="332.0" layoutY="399.0" mnemonicParsing="false" text="教  师" />
-        <JFXButton fx:id="register" buttonType="RAISED" layoutX="169.0" layoutY="429.0" mnemonicParsing="false" onAction="#onHandleRegister" prefHeight="37.0" prefWidth="243.0" style="-fx-background-color: #F2D7D5;" text="注  册" />
-        <Label fx:id="errorMessage" layoutX="8.0" layoutY="473.0" prefHeight="8.0" prefWidth="540.0" text="Label" AnchorPane.leftAnchor="8.0" />
-        <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="442.0" layoutY="243.0" onMouseClicked="#onHandleGoBackLogin" pickOnBounds="true" preserveRatio="true">
+        <TextField fx:id="userId" layoutX="169.0" layoutY="246.0" prefHeight="30.0" prefWidth="243.0"
+                   promptText="用  户  名"/>
+        <TextField fx:id="contactInfo" layoutX="169.0" layoutY="286.0" prefHeight="30.0" prefWidth="243.0"
+                   promptText="联系方式"/>
+        <PasswordField fx:id="password" layoutX="169.0" layoutY="326.0" prefHeight="30.0" prefWidth="243.0"
+                       promptText="密       码"/>
+        <PasswordField fx:id="repeatPassword" layoutX="169.0" layoutY="363.0" prefHeight="30.0" prefWidth="243.0"
+                       promptText="重复密码"/>
+        <JFXRadioButton fx:id="admin" layoutX="153.0" layoutY="399.0" mnemonicParsing="false" text="管理员"/>
+        <JFXRadioButton fx:id="teacher" layoutX="332.0" layoutY="399.0" mnemonicParsing="false" text="教  师"/>
+        <JFXButton fx:id="register" buttonType="RAISED" layoutX="169.0" layoutY="429.0" mnemonicParsing="false"
+                   onAction="#onHandleRegister" prefHeight="37.0" prefWidth="243.0"
+                   style="-fx-background-color: #F2D7D5;" text="注  册"/>
+        <Label fx:id="errorMessage" layoutX="8.0" layoutY="473.0" prefHeight="8.0" prefWidth="540.0" text="Label"
+               AnchorPane.leftAnchor="8.0"/>
+        <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="442.0" layoutY="243.0"
+                   onMouseClicked="#onHandleGoBackLogin" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image preserveRatio="true" smooth="true" url="@/image/go_back.png" />
+                <Image preserveRatio="true" smooth="true" url="@/main/resources/image/go_back.png"/>
             </image>
         </ImageView>
     </children>

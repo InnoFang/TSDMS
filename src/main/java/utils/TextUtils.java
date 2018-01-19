@@ -1,4 +1,4 @@
-package utils;
+package main.java.utils;
 
 /**
  * Created by Inno Fang on 2018/1/4.

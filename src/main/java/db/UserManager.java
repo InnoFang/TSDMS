@@ -1,7 +1,9 @@
-package db;
+package main.java.db;
 
-import dao.User;
-import utils.JDBCUtils;
+
+
+import main.java.dao.User;
+import main.java.utils.JDBCUtils;
 
 import java.sql.SQLException;
 import java.util.*;
@@ -12,6 +14,7 @@ import java.util.*;
 public class UserManager {
 
     public static Map<String, Object> CURRENT_USR = new HashMap<>();
+
 
     public static boolean validate(String user, String password, String type) {
 
@@ -38,6 +41,7 @@ public class UserManager {
             return false;
         }
     }
+
 
     public static boolean register(User user) {
         try {

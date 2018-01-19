@@ -1,4 +1,4 @@
-package controller.base;
+package main.java.controller.base;
 
 import javafx.stage.Stage;
 

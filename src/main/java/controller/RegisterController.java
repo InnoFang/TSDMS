@@ -1,13 +1,13 @@
-package controller;
+package main.java.controller;
 
-import app.MainApp;
-import dao.User;
-import db.UserManager;
+import main.java.app.MainApp;
+import main.java.dao.User;
+import main.java.db.UserManager;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyEvent;
-import utils.TextUtils;
+import main.java.utils.TextUtils;
 
 import java.net.URL;
 import java.util.ResourceBundle;

@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TeaTextbookSubscribeController">
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controller.TeaTextbookSubscribeController">
     <children>
         <TableView fx:id="classTable" layoutX="47.0" layoutY="251.0" prefHeight="249.0" prefWidth="733.0"
                    style="-fx-padding: 5; -fx-table-header-border-color: transparent; -fx-table-cell-border-color: transparent; -fx-base: #C5CAE9;"

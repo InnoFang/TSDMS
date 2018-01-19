@@ -1,10 +1,7 @@
-package app;
+package main.java.app;
 
 import com.sun.javafx.robot.impl.FXRobotHelper;
-import controller.LoginController;
-import controller.RegisterController;
-import dao.User;
-import db.UserManager;
+
 import javafx.application.Application;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
@@ -15,6 +12,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import main.java.controller.LoginController;
+import main.java.controller.RegisterController;
+import main.java.dao.User;
+import main.java.db.UserManager;
 
 import java.io.IOException;
 import java.io.InputStream;

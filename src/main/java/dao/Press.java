@@ -1,4 +1,4 @@
-package dao;
+package main.java.dao;
 
 import javafx.beans.property.SimpleStringProperty;
 

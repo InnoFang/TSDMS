@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml" line="60" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b072e22d-6ff2-4c60-aa0f-79204ec39d00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0b6c96f5-6680-4064-ab5e-9085277fcffc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/UserInfoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/UserManager.java" afterPath="$PROJECT_DIR$/src/main/java/db/UserManager.java" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +12,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tsdms$MainApp__1_.coverage" NAME="MainApp (1) Coverage Results" MODIFIED="1516200270702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>app.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/tsdms$MainApp.coverage" NAME="MainApp Coverage Results" MODIFIED="1515575736786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>app.*</FILTER>
-    </SUITE>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -36,93 +23,96 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="admin" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="tsdms@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="tsdms" type="e3449647:DbNodeDescriptor" />
-        <item name="teacher" type="e3449647:DbNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tsdms" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tsdms" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tsdms" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tsdms" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tsdms" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tsdms" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Login.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Register.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="91" lean-forward="false" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdmTextbookAddDialogController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#validate#0;class#UserManager#0" expanded="false" />
                 <element signature="method#register#0;class#UserManager#0" expanded="false" />
               </folding>
@@ -130,40 +120,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin" pinned="false" current-in-tab="false">
-        <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.admin">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBCUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java">
+      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
               <folding>
-                <element signature="method#createTable#0;class#JDBCUtils#0" expanded="false" />
-                <element signature="method#insertData#0;class#JDBCUtils#0" expanded="false" />
-                <element signature="method#selectData#0;class#JDBCUtils#0" expanded="false" />
-                <element signature="method#deleteData#0;class#JDBCUtils#0" expanded="false" />
-                <element signature="class#OnSelectResultListener#0;class#JDBCUtils#0" expanded="false" />
-                <element signature="class#OnInsertValueListener#0;class#JDBCUtils#0" expanded="false" />
-                <marker date="1516159944978" expanded="true" signature="2055:2090" ph="INSERT INTO test... " />
-                <marker date="1516159944978" expanded="true" signature="3458:3486" ph="DELETE FROM " />
+                <element signature="method#onHandleModifyPassword#0;class#UserInfoController#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -171,20 +135,10 @@
       <file leaf-file-name="AdmPressInfoDialogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+            <state relative-caret-position="567">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
-                <element signature="method#onHandleModifyPassword#0;class#UserInfoController#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,418 +147,60 @@
       <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="60" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1587">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
+      <file leaf-file-name="Teacher.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="276">
+              <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teacher" pinned="false" current-in-tab="false">
-        <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.teacher">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeacherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2254">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>root</find>
-      <find>paneOperation.getChildren().setAll((AnchorPane) FXMLLoader.load(getClass().getResource</find>
-      <find>driver</find>
-      <find>TableView</find>
-      <find>asdf</find>
-      <find>T</find>
-      <find>JFXTextField</find>
-      <find>JFXBu</find>
-      <find>courseInput</find>
-      <find>newValue</find>
-      <find>Stack</find>
-      <find>collector</find>
-      <find>observable.getValue()</find>
-      <find>adminNo</find>
-      <find>TableCol</find>
-      <find>onHandleSearch</find>
-      <find>fx:id=&quot;pane&quot;</find>
-      <find>onAction</find>
-      <find>pane</find>
-      <find>onAc</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>replacePane</replace>
-      <replace>replaceScene</replace>
-      <replace>observable.getValue()</replace>
-      <replace>value</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="GradleLocalSettings">
-    <option name="myGradleHomes">
-      <map>
-        <entry key="$PROJECT_DIR$" value="F:\gradle\gradle-4.0.1" />
-      </map>
-    </option>
-    <option name="myGradleVersions">
-      <map>
-        <entry key="$PROJECT_DIR$" value="4.0.1" />
-      </map>
-    </option>
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="tsdms" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="tsdms" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="availableTasks">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'tsdms'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'tsdms'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'tsdms'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'tsdms'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'tsdms'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'tsdms'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'tsdms'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'tsdms'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'tsdms'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="3030628975850" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4099937073" />
-      </map>
-    </option>
-    <option name="projectBuildClasspath">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <ExternalProjectBuildClasspathPojo>
-              <option name="modulesBuildClasspath">
-                <map>
-                  <entry key="$PROJECT_DIR$">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="name" value="tsdms" />
-              <option name="projectBuildClasspath">
-                <list>
-                  <option value="F:/gradle/gradle-4.0.1/src/announce" />
-                  <option value="F:/gradle/gradle-4.0.1/src/antlr" />
-                  <option value="F:/gradle/gradle-4.0.1/src/base-services" />
-                  <option value="F:/gradle/gradle-4.0.1/src/base-services-groovy" />
-                  <option value="F:/gradle/gradle-4.0.1/src/build-cache-http" />
-                  <option value="F:/gradle/gradle-4.0.1/src/build-comparison" />
-                  <option value="F:/gradle/gradle-4.0.1/src/build-init" />
-                  <option value="F:/gradle/gradle-4.0.1/src/cli" />
-                  <option value="F:/gradle/gradle-4.0.1/src/code-quality" />
-                  <option value="F:/gradle/gradle-4.0.1/src/composite-builds" />
-                  <option value="F:/gradle/gradle-4.0.1/src/core" />
-                  <option value="F:/gradle/gradle-4.0.1/src/dependency-management" />
-                  <option value="F:/gradle/gradle-4.0.1/src/diagnostics" />
-                  <option value="F:/gradle/gradle-4.0.1/src/ear" />
-                  <option value="F:/gradle/gradle-4.0.1/src/ide" />
-                  <option value="F:/gradle/gradle-4.0.1/src/ide-native" />
-                  <option value="F:/gradle/gradle-4.0.1/src/ide-play" />
-                  <option value="F:/gradle/gradle-4.0.1/src/installation-beacon" />
-                  <option value="F:/gradle/gradle-4.0.1/src/internal-android-performance-testing" />
-                  <option value="F:/gradle/gradle-4.0.1/src/internal-integ-testing" />
-                  <option value="F:/gradle/gradle-4.0.1/src/internal-performance-testing" />
-                  <option value="F:/gradle/gradle-4.0.1/src/internal-testing" />
-                  <option value="F:/gradle/gradle-4.0.1/src/ivy" />
-                  <option value="F:/gradle/gradle-4.0.1/src/jacoco" />
-                  <option value="F:/gradle/gradle-4.0.1/src/javascript" />
-                  <option value="F:/gradle/gradle-4.0.1/src/jvm-services" />
-                  <option value="F:/gradle/gradle-4.0.1/src/language-groovy" />
-                  <option value="F:/gradle/gradle-4.0.1/src/language-java" />
-                  <option value="F:/gradle/gradle-4.0.1/src/language-jvm" />
-                  <option value="F:/gradle/gradle-4.0.1/src/language-native" />
-                  <option value="F:/gradle/gradle-4.0.1/src/language-scala" />
-                  <option value="F:/gradle/gradle-4.0.1/src/launcher" />
-                  <option value="F:/gradle/gradle-4.0.1/src/logging" />
-                  <option value="F:/gradle/gradle-4.0.1/src/maven" />
-                  <option value="F:/gradle/gradle-4.0.1/src/messaging" />
-                  <option value="F:/gradle/gradle-4.0.1/src/model-core" />
-                  <option value="F:/gradle/gradle-4.0.1/src/model-groovy" />
-                  <option value="F:/gradle/gradle-4.0.1/src/native" />
-                  <option value="F:/gradle/gradle-4.0.1/src/osgi" />
-                  <option value="F:/gradle/gradle-4.0.1/src/platform-base" />
-                  <option value="F:/gradle/gradle-4.0.1/src/platform-jvm" />
-                  <option value="F:/gradle/gradle-4.0.1/src/platform-native" />
-                  <option value="F:/gradle/gradle-4.0.1/src/platform-play" />
-                  <option value="F:/gradle/gradle-4.0.1/src/plugin-development" />
-                  <option value="F:/gradle/gradle-4.0.1/src/plugin-use" />
-                  <option value="F:/gradle/gradle-4.0.1/src/plugins" />
-                  <option value="F:/gradle/gradle-4.0.1/src/process-services" />
-                  <option value="F:/gradle/gradle-4.0.1/src/publish" />
-                  <option value="F:/gradle/gradle-4.0.1/src/reporting" />
-                  <option value="F:/gradle/gradle-4.0.1/src/resources" />
-                  <option value="F:/gradle/gradle-4.0.1/src/resources-http" />
-                  <option value="F:/gradle/gradle-4.0.1/src/resources-s3" />
-                  <option value="F:/gradle/gradle-4.0.1/src/resources-sftp" />
-                  <option value="F:/gradle/gradle-4.0.1/src/scala" />
-                  <option value="F:/gradle/gradle-4.0.1/src/signing" />
-                  <option value="F:/gradle/gradle-4.0.1/src/test-kit" />
-                  <option value="F:/gradle/gradle-4.0.1/src/testing-base" />
-                  <option value="F:/gradle/gradle-4.0.1/src/testing-jvm" />
-                  <option value="F:/gradle/gradle-4.0.1/src/testing-native" />
-                  <option value="F:/gradle/gradle-4.0.1/src/tooling-api" />
-                  <option value="F:/gradle/gradle-4.0.1/src/tooling-api-builders" />
-                  <option value="F:/gradle/gradle-4.0.1/src/workers" />
-                  <option value="F:/gradle/gradle-4.0.1/src/wrapper" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/ant-1.9.6.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-base-services-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-base-services-groovy-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-cli-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-core-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-docs-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-installation-beacon-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-jvm-services-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-launcher-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-logging-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-messaging-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-model-core-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-model-groovy-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-native-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-process-services-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-resources-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-runtime-api-info-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-script-kotlin-0.9.0.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-tooling-api-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/gradle-wrapper-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/groovy-all-2.4.11.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-announce-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-antlr-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-build-cache-http-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-build-comparison-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-build-init-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-code-quality-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-composite-builds-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-dependency-management-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-diagnostics-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-ear-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-ide-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-ide-native-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-ide-play-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-ivy-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-jacoco-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-javascript-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-language-groovy-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-language-java-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-language-jvm-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-language-native-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-language-scala-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-maven-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-osgi-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-platform-base-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-platform-jvm-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-platform-native-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-platform-play-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-plugin-development-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-plugin-use-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-plugins-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-publish-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-reporting-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-resources-http-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-resources-s3-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-resources-sftp-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-scala-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-signing-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-test-kit-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-testing-base-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-testing-jvm-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-testing-native-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-tooling-api-builders-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/gradle-workers-4.0.1.jar" />
-                  <option value="F:/gradle/gradle-4.0.1/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
-                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
-                </list>
-              </option>
-            </ExternalProjectBuildClasspathPojo>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -612,55 +208,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/controller/OperationController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Operation.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/JDBCUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Register.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TeacherController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoSearch.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Admin.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmPressInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_PressInfoDialog.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/base/BaseDialogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Press.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Textbook.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/TextUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/app/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TeaClassInfoManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/Toast.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Teacher.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Subscription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/controller/AdmTextbookAddDialogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmDistributionInfoSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_PressInfoDialog.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Admin.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/mysql.ini" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ClassInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TeaClassInfoManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Teacher.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Register.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserInfoController.java" />
       </list>
@@ -672,18 +250,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1088" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -699,111 +274,89 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TSDMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TSDMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsdms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TSDMS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/IDEA Project/TSDMS/src/main/resources/Adm_SubscriptionInfoSearch.fxml&#10;fontawesomefx&#9;FILE&#9;file://F:/IDEA Project/TSDMS/.idea/libraries/Gradle__de_jensd_fontawesomefx_commons_8_15.xml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/fontawesomefx-materialicons-2.2.0-5.jar!/" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.44-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IDEA Project\TSDMS\src\main\resources\image" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utils" />
-      <recent name="controller" />
+      <recent name="F:\课设\数据库\TSDMS\src\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IDEA Project\TSDMS\src\main\resources" />
-      <recent name="F:\IDEA Project\TSDMS\src\main\resources\image" />
-      <recent name="F:\IDEA Project\TSDMS\src\main\java" />
-      <recent name="F:\IDEA Project\TSDMS\lib" />
-      <recent name="F:\IDEA Project\TSDMS\src\main\java\controller" />
+      <recent name="F:\课设\数据库\TSDMS\src\main" />
+      <recent name="F:\课设\数据库\TSDMS\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -818,15 +371,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp (1)">
-    <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="app.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -835,36 +388,19 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tsdms_main" />
+      <module name="TSDMS" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="main.java.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="app.MainApp" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tsdms" />
-      <envs />
-    </configuration>
-    <configuration name="TextUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="utils.TextUtils" />
+      <option name="MAIN_CLASS_NAME" value="main.java.app.MainApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -873,14 +409,16 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tsdms_main" />
+      <module name="TSDMS" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -907,18 +445,18 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
@@ -942,13 +480,13 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
@@ -956,99 +494,85 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainApp (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TextUtils" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainApp" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainApp (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TextUtils" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainApp" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b072e22d-6ff2-4c60-aa0f-79204ec39d00" name="Default" comment="" />
-      <created>1515057175063</created>
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1515057175063</updated>
-      <workItem from="1515057177889" duration="15575000" />
-      <workItem from="1515122056135" duration="1731000" />
-      <workItem from="1515327818382" duration="190000" />
-      <workItem from="1515331053017" duration="141000" />
-      <workItem from="1515332027351" duration="653000" />
-      <workItem from="1515488479767" duration="1798000" />
-      <workItem from="1515548744976" duration="9258000" />
-      <workItem from="1515639389886" duration="2841000" />
-      <workItem from="1515652277477" duration="5677000" />
-      <workItem from="1515658327314" duration="9000" />
-      <workItem from="1515658414416" duration="531000" />
-      <workItem from="1515658949457" duration="155000" />
-      <workItem from="1515659139170" duration="3852000" />
-      <workItem from="1515717210456" duration="9465000" />
-      <workItem from="1515764462955" duration="672000" />
-      <workItem from="1515984740625" duration="842000" />
-      <workItem from="1516021652614" duration="182000" />
-      <workItem from="1516063195745" duration="6869000" />
-      <workItem from="1516084300863" duration="9318000" />
-      <workItem from="1516103242998" duration="676000" />
-      <workItem from="1516149438994" duration="46416000" />
-      <workItem from="1516236931268" duration="24059000" />
-      <workItem from="1516262692335" duration="137000" />
-      <workItem from="1516263401246" duration="123000" />
-      <workItem from="1516265140300" duration="5411000" />
-      <workItem from="1516274036685" duration="1456000" />
-      <workItem from="1516281913795" duration="2201000" />
-      <workItem from="1516287602772" duration="3592000" />
-      <workItem from="1516317646811" duration="2236000" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1516274021029" duration="1556000" />
+      <workItem from="1516282229452" duration="53000" />
+      <workItem from="1516318094296" duration="211000" />
+      <workItem from="1516319536963" duration="338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156066000" />
+    <option name="totallyTimeSpent" value="3460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="952" y="0" width="976" height="1088" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.49217004" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3513812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49613258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25804722" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.48873484" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45011085" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22854078" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.51126516" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1056,6 +580,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1066,244 +594,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_PressInfoDialog.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="93" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="107" column="56" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.subscription">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mysql.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/base/BaseDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image/tsdms.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image/go_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image/tsdms.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image/admin.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Admin.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Register.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_Overview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="32" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1516274666105" expanded="true" signature="2065:2100" ph="INSERT INTO test... " />
+            <marker date="1516274666105" expanded="true" signature="3468:3496" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Toast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeacherController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TextUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ClassInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="65" column="24" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="65" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="179" column="41" lean-forward="false" selection-start-line="179" selection-start-column="41" selection-end-line="179" selection-end-column="41" />
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="98" column="44" lean-forward="false" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1314,175 +633,356 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="75" column="50" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="50" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Press.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookSubscribeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookDistributeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/base/BaseDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaClassInfoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="338">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmDistributionInfoSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_AdminInfoManager.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="164" lean-forward="false" selection-start-line="14" selection-start-column="164" selection-end-line="14" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="73" lean-forward="false" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_PressInfoDialog.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="151" lean-forward="false" selection-start-line="10" selection-start-column="151" selection-end-line="10" selection-end-column="151" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_SubscriptionInfoSearch.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookAddDialog.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookDistribute.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_TextbookInfoManager.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Admin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" column="152" lean-forward="false" selection-start-line="11" selection-start-column="152" selection-end-line="11" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_Overview.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_ClassInfoManager.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TeacherInfoManager.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="73" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookInfoSearch.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tea_TextbookSubscribe.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="73" lean-forward="false" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teacher.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/TSDMS/main/java/mysql.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.distribution">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.press">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.textbook">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookInfoManagerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3151">
-          <caret line="166" column="27" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="169" selection-end-column="5" />
+        <state relative-caret-position="2254">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Register.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="91" lean-forward="false" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmTextbookAddDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="2070">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
-            <element signature="method#onHandleOk#0;class#AdmTextbookAddDialogController#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmSubscriptionInfoSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TeaTextbookInfoSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="111" column="9" lean-forward="false" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.teacher">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding>
-            <element signature="method#createTable#0;class#JDBCUtils#0" expanded="false" />
-            <element signature="method#insertData#0;class#JDBCUtils#0" expanded="false" />
-            <element signature="method#selectData#0;class#JDBCUtils#0" expanded="false" />
-            <element signature="method#deleteData#0;class#JDBCUtils#0" expanded="false" />
-            <element signature="class#OnSelectResultListener#0;class#JDBCUtils#0" expanded="false" />
-            <element signature="class#OnInsertValueListener#0;class#JDBCUtils#0" expanded="false" />
-            <marker date="1516159944978" expanded="true" signature="2055:2090" ph="INSERT INTO test... " />
-            <marker date="1516159944978" expanded="true" signature="3458:3486" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/19fc9a27/0b6c96f5-6680-4064-ab5e-9085277fcffc/tsdms.admin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="60" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1587">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdmPressInfoDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/db/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#validate#0;class#UserManager#0" expanded="false" />
             <element signature="method#register#0;class#UserManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Adm_DistributionInfoSearch.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        <state relative-caret-position="224">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
           <folding>
             <element signature="method#onHandleModifyPassword#0;class#UserInfoController#0" expanded="false" />
           </folding>
@@ -1495,10 +995,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1541,20 +1043,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tsdms_main|tsdms</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>TSDMS</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1566,7 +1055,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: org.hamcrest:hamcrest-core:1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

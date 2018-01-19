@@ -1,4 +1,4 @@
-package utils;
+package main.java.utils;
 
 import com.jfoenix.controls.JFXSnackbar;
 import javafx.scene.layout.Pane;

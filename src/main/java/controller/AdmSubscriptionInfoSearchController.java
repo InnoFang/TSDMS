@@ -1,8 +1,8 @@
-package controller;
+package main.java.controller;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import dao.Subscription;
+import main.java.dao.Subscription;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -14,9 +14,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
-import utils.JDBCUtils;
-import utils.TextUtils;
-import utils.Toast;
+import main.java.utils.JDBCUtils;
+import main.java.utils.TextUtils;
+import main.java.utils.Toast;
 
 import java.net.URL;
 import java.sql.SQLException;

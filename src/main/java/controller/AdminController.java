@@ -1,6 +1,6 @@
-package controller;
+package main.java.controller;
 
-import app.MainApp;
+import main.java.app.MainApp;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

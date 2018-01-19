@@ -1,7 +1,7 @@
-package controller;
+package main.java.controller;
 
-import app.MainApp;
-import dao.User;
+import main.java.app.MainApp;
+import main.java.dao.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

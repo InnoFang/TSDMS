@@ -1,8 +1,8 @@
-package controller;
+package main.java.controller;
 
 import com.jfoenix.controls.*;
-import dao.User;
-import db.UserManager;
+
+
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -14,9 +14,12 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
-import utils.JDBCUtils;
-import utils.TextUtils;
-import utils.Toast;
+import main.java.dao.User;
+import main.java.db.UserManager;
+import main.java.utils.JDBCUtils;
+import main.java.utils.TextUtils;
+import main.java.utils.Toast;
+
 
 import java.net.URL;
 import java.sql.SQLException;
@@ -159,3 +162,18 @@ public class UserInfoController implements Initializable {
 
     }
 }
+
+/*
+// deprecation
+            JFXDialogLayout content = new JFXDialogLayout();
+            content.setHeading(new Text("注意"));
+            content.setBody(new Text("更新信息不能为空"));
+            StackPane stackPane = new StackPane();
+            stackPane.setAlignment(Pos.CENTER);
+            stackPane.setMaxSize(100, 100);
+            JFXDialog dialog = new JFXDialog(stackPane, content, JFXDialog.DialogTransition.CENTER);
+            JFXButton button = new JFXButton("知道了");
+            button.setOnAction(event -> dialog.close());
+            content.setActions(button);
+            dialog.show();
+ */

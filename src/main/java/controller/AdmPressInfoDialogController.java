@@ -1,9 +1,9 @@
-package controller;
+package main.java.controller;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import controller.base.BaseDialogController;
-import dao.Press;
+import main.java.controller.base.BaseDialogController;
+import main.java.dao.Press;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,8 +14,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
-import utils.JDBCUtils;
-import utils.TextUtils;
+import main.java.utils.JDBCUtils;
+import main.java.utils.TextUtils;
 
 import java.net.URL;
 import java.sql.SQLException;
@@ -87,6 +87,7 @@ public class AdmPressInfoDialogController extends BaseDialogController implement
 
                 Press press = new Press(no, name, tel);
                 pressObservableList.add(press);
+//                pressTable.refresh();
 
                 noInput.setText("");
                 nameInput.setText("");

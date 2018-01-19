@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 
 <?import com.jfoenix.controls.JFXPasswordField?>
-<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserInfoController">
+<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controller.UserInfoController">
     <children>
         <Label layoutX="51.0" layoutY="37.0" text="个人信息">
             <font>
