@@ -13,7 +13,7 @@ If you want to import this project, you should modify some cofigurarion informat
 
 **1. Import SQL File**
 
-Enter your MySQL, then create a database name `tsdms` (Of course, you should ensure `tsdms` database is empty)
+Enter your MySQL, then create a database name `tsdms`
 
 ```mysql
 mysql> CREATE DATABASE tsdms;
