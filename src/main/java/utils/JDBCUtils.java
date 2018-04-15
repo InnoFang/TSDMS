@@ -46,6 +46,7 @@ public class JDBCUtils {
 
             // 加载驱动
             Class.forName(driver);
+            connection = getConnection();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -153,7 +154,7 @@ public class JDBCUtils {
     public boolean update(String sql, List<Object> params) throws SQLException {
 
         int result = -1;
-        pstmt = getConnection().prepareStatement(sql);
+        pstmt = connection.prepareStatement(sql);
         int index = 1;
         if (params != null && !params.isEmpty()) {
             for (int i = 0; i < params.size(); i++) {
@@ -175,7 +176,7 @@ public class JDBCUtils {
     public Map<String, Object> getQueryResult(String sql, List<Object> params) throws SQLException {
         Map<String, Object> map = new HashMap<>();
         int index = 1;
-        pstmt = getConnection().prepareStatement(sql);
+        pstmt = connection.prepareStatement(sql);
         if (params != null && !params.isEmpty()) {
             for (int i = 0; i < params.size(); i++) {
                 pstmt.setObject(index++, params.get(i));
@@ -194,7 +195,7 @@ public class JDBCUtils {
     public List<Map<String, Object>> getQueryResults(String sql, List<Object> params) throws SQLException {
         List<Map<String, Object>> list = new ArrayList<>();
         int index = 1;
-        pstmt = getConnection().prepareStatement(sql);
+        pstmt = connection.prepareStatement(sql);
         if (null != params && !params.isEmpty()) {
             for (int i = 0; i < params.size() ; i++) {
                 pstmt.setObject(index++, params.get(i));
