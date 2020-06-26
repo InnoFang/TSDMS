@@ -60,8 +60,8 @@ After the above steps have been completed, you can use IntelliJ IDEA to import t
 <br />
 <br />
 <div align="center" >
-	<img src="./screenshot/login.jpg" />
-	<img src="./screenshot/register.jpg" />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/login.jpg" />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/register.jpg" />
 </div>
 <br />
 <br />
@@ -79,14 +79,14 @@ After the above steps have been completed, you can use IntelliJ IDEA to import t
 <br />
 <br />
 <div align="center">
-	<img src="./screenshot/admin_textbook.jpg" />
-	<img src="./screenshot/addtextbook.jpg"  />
-	<img src="./screenshot/press.jpg"  />
-	<img src="./screenshot/subscriptionInfoSearch.jpg"  />
-	<img src="./screenshot/distributionInfoSearch.jpg"  />
-	<img src="./screenshot/distributeTextbook.jpg"  />
-	<img src="./screenshot/confirmToDistribute.jpg"  />
-	<img src="./screenshot/AdminInfo.jpg" />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/admin_textbook.jpg" />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/addtextbook.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/press.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/subscriptionInfoSearch.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/distributionInfoSearch.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/distributeTextbook.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/confirmToDistribute.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/AdminInfo.jpg" />
 </div> 
 
 <br />
@@ -102,10 +102,10 @@ After the above steps have been completed, you can use IntelliJ IDEA to import t
 <br />
 <br />
 <div align="center">
-	<img src="./screenshot/teaTextbookSearch.jpg" />
-	<img src="./screenshot/textbookSubscription.jpg" />
-	<img src="./screenshot/classInfoManager.jpg"  />
-	<img src="./screenshot/teacherInfo.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/teaTextbookSearch.jpg" />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/textbookSubscription.jpg" />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/classInfoManager.jpg"  />
+	<img src="https://cdn.jsdelivr.net/gh/innofang/TSDMS/screenshot/teacherInfo.jpg"  />
 </div> 
 
 <br />
